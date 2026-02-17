@@ -1,5 +1,5 @@
 // ==UserScript==
-// @icon https://thumb.cloud.mail.ru/weblink/thumb/xw1/NAX3/TrX2nGFzd?mt=1689107482000
+// @icon         https://thumb.cloud.mail.ru/weblink/thumb/xw1/NAX3/TrX2nGFzd?mt=1689107482000
 // @name         👉UserStyles👈☭🇷🇺 Русификация
 // @namespace    https://github.com/SkyK0T/UserScript
 // @version      1.0
