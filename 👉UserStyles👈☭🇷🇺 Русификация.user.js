@@ -1,7 +1,7 @@
 // ==UserScript==
 // @icon https://thumb.cloud.mail.ru/weblink/thumb/xw1/NAX3/TrX2nGFzd?mt=1689107482000
 // @name         👉UserStyles👈☭🇷🇺 Русификация
-// @namespace    http://github.com/SkyK0T
+// @namespace    https://github.com/SkyK0T/UserScript
 // @version      1.0
 // @description  Русифицирует все сайты со стилями ☭🇷🇺👉UserStyles.world👉Uso.kkx.one👉UserStyles.org😈
 // @author       Sky_
