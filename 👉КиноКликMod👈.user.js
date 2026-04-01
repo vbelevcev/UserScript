@@ -1,7 +1,7 @@
 // ==UserScript==
 // @icon         https://favicon.yandex.net/favicon/w1.zona.im
 // @name         👉КиноКликMod👈
-// @description  Добавляет кнопки для просмотра и поиска на популярных трекерах фильмов и сериалов
+// @description  Добавляет на Кинопоиске кнопку бесплатного просмотра фильмов и сериалов,и ищет на популярных ресурсах/трекерах
 // @author       4c5688 vbelevcev Mod
 // @version      1.1
 // @namespace
@@ -206,7 +206,7 @@
 
                 const newBtn=document.createElement("button");
                 newBtn.id="rk-watch-btn";
-                newBtn.textContent="Смотреть онлайн";
+                newBtn.textContent="Просмотр";
                 newBtn.className="style_button__Awsrq style_buttonSize52__MBeHC style_buttonPrimary__Qn_9l";
 
                 const body=document.createElement("div");
