@@ -31,8 +31,9 @@
  https://greasyfork.org/ru/users/1546943-4c5688
  https://greasyfork.org/ru/scripts/558634-%D0%BA%D0%B8%D0%BD%D0%BE%D0%BA%D0%BB%D0%B8%D0%BA
  Версия от 16.3.2026 г.
+ */
 // ==/UserScript==
-*/
+
 
 (function() {
     'use strict';
