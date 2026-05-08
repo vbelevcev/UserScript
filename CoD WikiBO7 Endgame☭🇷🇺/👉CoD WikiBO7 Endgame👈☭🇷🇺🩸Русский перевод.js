@@ -1,6 +1,6 @@
 // ==UserScript==
 // @icon https://github.com/SkyK0T/SkyTV/blob/main/skykotik.gif?raw=true
-// @name        👉CoD Wiki:BO7 Endgame👈☭🇷🇺🩸Русский перевод
+// @name         👉CoD WikiBO7 Endgame👈☭🇷🇺🩸Русский перевод
 // @namespace    https://callofduty.fandom.com/wiki/Endgame_(Black_Ops_7)
 // @version      1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0
 // @description  Русская локализация для руководства с сайта CoD Wiki Endgame Black Ops 7 Endgame.🩸Постепенно буду добавлять, и то что неперевено.
@@ -68,8 +68,7 @@ const translations = {
 "Prior to launching the game, players may customize their loadout with a primary weapon, equipment, and a salvaged weapon from a previous run": "Перед запуском игры игроки могут настроить свое снаряжение, включив в него основное оружие, экипировку и оружие, найденное в предыдущем раунде",
 "When a match of Endgame begins, players are dropped straight into the skies of": "Когда начинается матч, игроки попадают прямо в небеса",
 " and must use their ": "а и должны использовать свой ",
-"wingsuit": "крылатый костюм",
-"Wingsuit": "Крылатый костюм",
+
 " to descend to safely to the ground": ", чтобы безопасно спуститься на землю",
 "Players are dropped into the Zone they're most readily leveled for, but they may fly or travel by foot or vehicle to any part of the map they choose": "Игроки попадают в зону, в которой им легче всего прокачиваться, исходя из боевого рейтинга, они могут лететь самолетом, передвигаться пешком или на автомобиле в любую часть карты по своему выбору",
 "Players may make use of both the Tac Map or the C-Link overhead display to spot a variety of Assignments and Activities around the map": "Игроки могут использовать как карту Tac, так и дисплей C-Link, чтобы отслеживать различные задания и действия на карте",
@@ -78,14 +77,7 @@ const translations = {
 " is divided into four different tiered zones, with each tier being harder and advising a higher combat rating than the last": " разделен на 4 различных зоны, каждая из которых сложнее предыдущей и дает более высокий боевой рейтинг",
 "The difficulty of the various Activities and Assignments is determined by the zone they are found in": "Сложность различных видов деятельности и заданий определяется зоной, в которой они находятся",
 "Gameplay": "Геймплей",
-// Зоны
-"Zone I": "Зона I",
-"Zone II": "Зона II",
-"Zone III": "Зона III",
-"Zone IV": "Зона IV",
-"Nightmare / Zone V": "Зона V🩸Кошмар",
-"Recommended Combat Rating": "Рекомендуемый боевой рейтинг",
-"Recommended": "Рекомендованный",
+
 
 
 // Цель игры
@@ -201,7 +193,7 @@ const translations = {
 " located on an island facility within the Tier IV zone": " он находится на острове зоне IV",
 "Doing so will reward the player greatly, including with an ": "За это игрок будет щедро вознагражден, в том числе ",
 
-" weapon.": " оружием.",
+
 
 // Разлом сбоя
 
@@ -249,7 +241,7 @@ const translations = {
 
 
 
-  // Боевой рейтинг
+// Боевой рейтинг
 "The Combat Rating is a leveling system using a progression unit called Power": "Боевой рейтинг — это система прокачки, использующая единицу прогрессии, повышающая силу вашего персонажа",
 "Power is earned by completing Activities, Assignments, and World Events as well as eliminating enemies": "Силу можно получить, выполняя задания и участвуя в мировых событиях, а также уничтожая врагов",
 "Each Operator has its own Combat Rating": "Каждый оператор имеет свой собственный боевой рейтинг",
@@ -259,7 +251,7 @@ const translations = {
 "First Starting Skill Track": "Первый выбор навыка",
 "Second Starting Skill Track": "Второй выбор навыка",
 "Third Starting Skill Track": "Третий выбор навыка",
-"Damage": "Урон",
+
 "Skill Track Choices": "Выбор направления навыков",
 "Core Power Upgrade": "Улучшение здоровья🩸Увеличение бронепластин",
 "Combat Rating": "Боевой рейтинг",
@@ -286,23 +278,292 @@ const translations = {
 "": "",
 "": "",
 "": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
+
+
+// Главная способность
+"Major Abilities": "Главная способность",
+
+"Crash Cart": "Реаниматор",
+"Instantly revive downed squadmates within range, and provide temporary invulnerability for a short time. Can be used to self-revive when downed.": "Мгновенно реанимирует тяжело раненных союзников в пределах досегаемости и обеспечивает временную неуязвимость на короткое время. Можно использовать для самореанимации при тяжёлом ранении.",
+
+"Active Camo": "Активный камуфляж",
+"Become nearly invisible for a short duration. Gunfire temporarily reveals your temporarily.": "На короткое время вы становитесь почти невидимыым. Стрельба временно раскрывает вас.",
+
+"Ballistic Shell": "Баллистический панцирь",
+"Deploy an energy shield that blocks incoming enemy fire.": "Разверните энергетический щит,который блокирует огонь противника.",
+
+"Hand Cannon": "Крупнокалиберный пистолет",
+"Powerful high damage handgun. Accurate at range.": "Мощный пистолет с высоким уроном. Точен на дальних дистанциях",
+
+"Vision Pulse": "Видеоимпульс",
+"Send out a pulse which visually tags enemies through walls for your squad. Tagged enemies take increased damage.": "Отправьте видеоимпульс, который визуально отмечает врагов сквозь стены для вашего отряда. Отмеченные враги получают увеличенный урон.",
+
+"War Machine": "Машина войны",
+"Powerful single shot grenade launcher. Large explosion radius.": "Мощный однозарядный гранатомёт. Большой радиус поражения.",
+
+"Shadow Break": "Теневой прорыв",
+"Create an energy warping field that teleports and damages enemies.": "Создайте искажающее энергию поле, которое телепортирует и наносит урон врагам.",
+
+"Drone Pod": "Дрон-станция",
+"Deployable device that launches aerial drones. Drones seek out enemies and explode.": "Размещаемое устройство, запускающее воздушные дроны,которые ищут врагов и взрываются.",
+
+"Sentinel Protocol": "Протокол Часовой",
+"Call in an armed Guild robot to fight enemies and assist you and your team. Can revive downed teammates when downed and do a small area of effect attack when swarmed.": "Вызовите вооружённого робота Гильдии,чтобы сражаться с врагами и помогать вам и вашей команде. Может реанимировать тяжелораненных союзников и наносить небольшой урон по области при скоплении врагов.",
+
+"Thermal Spike": "🔥Тепловой всплеск🔥",
+"Emit a powerful blast of flames that incinerate enemies. Flames persist in the area for a short duration.": "🔥Выпускает мощный всплеск пламени, который сжигает врагов. 🔥Пламя сохраняется в области на короткое время.🔥Новая специальная способность: Поджигайте врагов с помощью новой способности Thermal Spike Major Ability, наказывая врагов, оказавшихся на пути огня.",
+"Complete any 6 Challenges from Week 6 of ": "Завершите 6 испытаний 6 недели ",
+
+// Дополнительная способность
+"Minor Abilities": "Дополнительная способность",
+
+"Grappling Hook": "Крюк",
+"Grapple to surfaces to escape danger and reach new heights.": "Используйте крюк, чтобы цепляться за поверхности, избегать угроз и достигать новых высот.",
+
+"Portal Grenade": "Портальная граната",
+"A grenade that spawns creatures to fight for you. They last a short duration.": "Граната, которая призывает существ, сражающихся на вашей стороне. Существа живут недолго.",
+
+"Kinetic Jump": "Кинетический прыжок",
+"Jump to extreme heights. Hold the button to jump higher. Landing stuns nearby enemies.": "Прыгайте экстремально высоко. Удерживайте кнопку, чтобы подпрыгнуть выше. Приземление оглушает ближайших врагов.",
+
+"Flicker": "Мерцание",
+"Tap to quickly teleport a short distance in your facing direction. Press and hold to pre-aim. Goes through enemies.": "Нажмите, чтобы быстро телепортироваться на небольшое расстояние (не более 50 метров) в направлении взгляда. Нажмите и удерживайте, чтобы прицелиться. Проходит сквозь врагов",
+
+"Supply Link": "Связь припасов",
+"Instantly supplies you and squad with ammo, armor, equipment and a portion of the Major Ability charge.": "Мгновенно пополняйте запасы боеприпасов, брони, снаряжения и часть заряда главной способности (полевой модификации) у себя и членов отряда.",
+
+"Black Hat": "Взломщик",
+"Hack enemies, equipment, and vehicles. Hacked targets are disabled, destroyed, or converted to fight for you.": "Взламывайте врагов, снаряжение и транспорт. Взломанные цели выводятся из строя, уничтожаются или переходят под ваш контроль.",
+
+"Blood Burner": "Палач",
+"Spawn a mystical motorcycle good for traversal and combat. Running over enemies charges a special area of effect attack.": "Вызовите мистический мотоцикл, подходящий для перемещения и боя. Наезд на врагов заряжает особую атаку, действующую по области.",
+"Eliminate 500 Nightmare Zone enemies": "Убейте 500 врагов в кошмарной зоне V",
+
+"Aether Blade": "Эфирный клинок",
+"Aether infused throwing knife that hunts down targets. Hit 5 with one toss to recover a portion of its charge.": "Метательный нож, напитанный эфиром, который преследует цели. Попадите в 5 целей одним броском, чтобы восстановить часть заряда.",
+
+"In Endgame: Earn 30000 Power": "или наберите силу 30 000 в Финале",
+"In Endgame:": "или в Финале:",
+"Get 500 Critical Kills": "Убейте 500 врагов критическими попаданиями в голову",
+
+
+// Ветвь навыков
+
+"Skill Tracks": "Ветвь навыков",
 // "Skill": "Навык",
 "Exotic (S1)": "Экзотические навыки (с1)",
 "Nightmare (S2R)": "Кошмарные навыки (с2п)",
+// Стрелок
+"Gunner": "Стрелок",
+"Master your weapons, reload faster, aim sharper and electrify enemies.": "👉Перезарядка оглушает противников шоком👈 Освойте своё оружие, перезаряжайтесь быстрее, цельтесь точнее и поражайте врагов электричеством.",
+"Reload Speed": "Скорость перезарядки",
+"Reload Faster": "・ Ускоренная перезарядка оружия",
+
+"Fast Replate": "Быстрая замена бронепластин",
+"Replate Armor Faster": "・ Быстрая замена бронепластин",
+
+"Fast Weapon Swap": "Быстрая смена оружия",
+"Swap Weapons faster": "・ Ускоренная смена оружия",
+
+"Ammo Auto-Refill": "Автопополнение боезапаса",
+"Magazine Ammo slowly fills over time": "・ Боеприпасы в магазине постепенно заполняются со временем",
+
+"Aiming Expert": "Эксперт прицеливания ",
+"Improved ADS accuracy and ADS speed when Jumping, Sliding, and Diving": "・ Повышение точности прицеливания, а также скорости прицеливания в прыжке, скольжении и падении.",
+
+"Shocking Reload": "Шоковая перезарядка",
+"Reloading causes an electric shock that damages and stuns nearby base enemies (cooldown between uses)": "・ Перезарядка вызывает электрический разряд, который наносит урон и оглушает ближайших базовых противников (требуется время на восстановление между использованиями).",
+"": "",
+
+// Хирург
+"Surgeon": "Хирург",
+"Stay alive and keep others fighting, heal fast, revive quicker, and fight back from the brink": "👉Бесконечная самореанимация (восстановление 1 минута)👈 Оставайтесь в живых и поддерживайте других бойцов, быстро лечитесь, быстрее возрождайтесь и сражайтесь до последнего.",
+"Health Recovery": "Восстановление здоровья",
+"Health recovery starts sooner after you stop taking damage": "・ После прекращения получения урона восстановление здоровья начинается быстрее.",
+
+"Last Stand Fighter": "Боец чести",
+"Survive Longer in Last Stand": "👉Больше патронов в пистолете👈・ Выживайте дольше в последнем рывке.",
+"Upgrades Last Stand Pistol and provides more Ammo": "・ Улучшения пистолета на последнем рывке и большее количество боеприпасов.",
+
+"Agile Handling": "Отличная эргономика",
+"Fire your Weapon while Sprinting and walk faster while Aiming Down Sights": "・ Возможность стрелять на бегу и ускоренная ходьба при прицеливании.",
+
+"Heal Faster": "Ускоренное лечение",
+"Increases healing speed": "・ Увеличение скорости лечения.",
+
+"Fast Revive": "Быстрая реанимация",
+"Revive yourself and your Squad faster": "・ Реанимируйте себя и свой отряд быстрее",
+"Revives replenish all health and temporarily boost movement speeds": "・ Реанимации восстанавливают всё здоровье и временно увеличивают скорость перемещения.",
+
+"Off The Floor": "Последние силы",
+"Revive yourself when you get a Kill in Last Stand (cooldown between uses)": "・ Самореанимация при убийстве в последнем рывке (требуется время на восстановление между использованиями).",
+
+"Daredevil": "Сорвиголова",
+"Fly, slide and dive into chaos, your movement is a weapon and the ground hits back.": "👉Взрыв при падении/скольжении👈 Летайте, скользите и падайте в хаос, ваше движение - это оружие, а земля отвечает ударом.",
+
+"Dive Bomber": "Пикирующий подрывник",
+"Diving aggressively to the ground with the Wingsuit triggers a concussive blast": "・ Агрессивное снижение в направлении земли с помощью крылатого костюма вызывает ударную волну.",
+
+"Wingsuit Glider": "Эксперт-Паритель",
+"Improves Wingsuit handling and hang time": "・ Улучшение управляемости крылатого костюма и длительности полёта.",
+
+"Thick Skin": "Толстая кожа ",
+"Take less damage from Melee attacks": "・ Уменьшение получаемого урона от атак ближнего боя.",
+
+"Super Slider": "Суперскольжение",
+"Sliding distance and speed are increased": "・ Увеличение дистанции и скорость скольжения.",
+
+"Reload And Run": "Перезаряжай и беги",
+"Reloading temporarily boosts movement speed": "・ Перезарядка временно увеличивает скорость перемещения.",
+
+"Slide Explosions": "Взрывы в скольжении",
+"Diving and Sliding triggers an explosion": "・ Падение и скольжение вызывают взрыв.",
+
+// Тактик
+"Tactician": "Тактик",
+"Gear up and get clever, deploy faster, recharge quicker and turn kills into nasty surprises.": "👉Дрон👈Снаряжайтесь и проявляйте смекалку, быстрее высаживайтесь, быстрее перезаряжайтесь и превращайте убийства в неприятные сюрпризы.",
+
+"Equipment Hound": "Охотник за снаряжением",
+"Hold more Equipment": "・ Возможность носить с собой больше снаряжения.",
+
+"Quick Deploy": "Быстрое развёртывание",
+"Deploy Equipment faster and further": " ・ Ускореннное применение снаряжение и увеличение его дальности",
+"Improved Sprint and Tac Sprint speeds while reloading": "・ Повышение скорости обычного и тактического бега во время перезарядки",
+
+"Hit And Run": "Опасная езда",
+"Base I: Taking melee hits can spawn a Black Hole that damages and displaces enemies": "・ Убийства снаряжением временно повышают скорость перемещения.",
+
+"Recharger": "Перезарядка",
+"Recharge Abilities and Equipment faster": "・ Ускоренное восстановление снаряжение и способностей.",
+
+"Quick Rounds Back": "Возврат патронов",
+"Rapidly Killing 2 enemies has a chance to return 2 rounds of Ammo": "・ Убив 2 противников подряд, вы получите шанс вернуть 2 патрона",
+
+"Pinata": "Пиньята",
+"Killing an enemy has a chance to spawn a live piece of Equipment": "・ Убийство противника даёт шанс вызвать работающий предмет снаряжения.",
+
+// Берсерк
+"Berserker": "Берсерк",
+"Chain aggression to speed, attack while moving, reap armor for kills and bring destruction from above.": "👉Взрыв при приземлении👈Цепная агрессия для увеличения скорости, атака на ходу, сбор брони для убийств и разрушение с воздуха",
+
+"Fast Weapon Fire": "Быстрая стрельба",
+"Increased rate of fire for Weapons": "・ Повышение скорострельности оружия.",
+
+"Kills Regen Armor": "Убийства восстанавливают броню",
+"Killing enemies regenerates Armor": "・ Убийство противников восстанавливают броню",
+"Fully upgrade to regenerate more Armor when Killing an Elite": "・ На максимальном уровне убийство элитных противников даёт больше брони.",
+
+"Crit Chain Speed Boost": "Убийства при цепочке критических попаданий",
+"Rapid Critical Kills temporarily boost your movement speed": "・ Критические убийства подряд временно увеличивают вашу скорость перемещения.",
+
+"Endurance Sprinter": "Выносливый бегун",
+"Reload while Tac Sprinting. Tac duration and sprint to fire time improved": " ・ Перезарядка во время тактического бега, увеличение длительности тактического бега и ускорение изготовки после бега.",
+
+"Fall Damage Reduction": "Снижение урона от падения",
+"Reduced fall Damage": "・ Снижает урон от падения",
+"Fully upgrade for fall damage immunity.": "・ Полное улучшение даёт иммунитет к урону от падения.",
+
+"Fall Explosions": "Взрывы в падении",
+"Trigger an explosion when you land": "・ Запускает взрыв при приземлении.",
+
+// Бульдозер
+"Bulldozer": "Бульдозер",
+"Become a walking tank, regen armor, shrug off explosions and smash through enemies": "👉Ходячий танк/снижает урон от взрывчатки👈 Станьте ходячим танком, восстанавливайте броню, игнорируйте взрывы и сокрушайте врагов.",
+
+"Armor Regen": "Восстановление брони",
+"Automatically regenerate 1 Armor Plate": "・ Автоматически восстанавливает 1 бронепластину.",
+
+"Deal more damage with Weapons at Point Blank range": "・ Дополнительный урон при стрельбе в упор.",
+"Point Blank": "Выстрел в упор",
+
+"Adrenaline Rush": "Адреналиновый шторм",
+"Deal bonus damage while at low health": "・ Увеличение наносимого урона при малом запасе здоровья.",
+
+"Revival Protection": "Защита при возрождении",
+"Revived Squadmates temporarily take reduced damage": " ・ Реанимированным союзникам временно уменьшает урон.",
+"Also works with Self-Revive": " ・ Также работает с самореанимацией.",
+
+"Explosive Resistance": "Сопротивление взрывам",
+"Reduced damage taken from explosives": "・ Снижает получаемый урон от взрывчатки",
+"Fully upgrade for immunity to your own explosives": "・ Полное улучшение даёт иммунитет к собственной взывчатке.",
+
+"Tackle": "Таран",
+"Sliding, Diving, or Tac Sprinting knocks down Fears and Soldiers": "・ Скольжение, падение или тактический бег сбивают с ног страхи и солдат.",
+"": "",
+
+// Фантом
+"Phantom (S1R)": "Фантом👉с1п👈",
+"Strike unseen and vanish fast, slip past danger, land critical blows from the shadows.": "👉Призрачная копия👈Наносите удары незаметно и быстро исчезайте, ускользайте от опасности и наносите решающие удары из тени.",
+
+"Elusive Target": "Трудная цель",
+"Reduces accuracy of enemies shooting at you": "・ Снижает точность противников, стреляющих по вам",
+
+"Fast Melee": "Быстрый ближний бой",
+"Faster melee speed": "・ Повышенная скорость ближнего боя.",
+
+"Trap Avoidance": "Избегание ловушек",
+"Traps and Mines take longer to detect you": "・ Ловушки и мины обнаруживают вас с задержкой. ",
+"Undetectable when fully upgrade": "・ При максимальном улучшении вы необнаружимы.",
+
+"Silent Movement": "Тихое перемещение",
+"Quiets movement, reduces enemy detection distance. Faster loading when interacting with devices": "・ Приглушает звуки перемещения и уменьшает дистанцию обнаружения противником. Быстрая загрузка при взаимодействии с устройствами.",
+
+"Ambush": "Засада",
+"Hits from behind deal more damage, if the enemy is at full health critical shots deal double damage": " ・ Удары в спину по не ожидающим этого врагам наносят больше урона. если у врага полное здоровье, критические удары наносят двойной урон.",
+
+"Decoy": "Ложная цель",
+"Taking significant damage deploys as Echo Unit that distracts enemies": "・ При получении значительного урона развёртывается солдат Эхо, который отвлекает врагов.",
+"": "",
+// Орлиный глаз👉с2👈
+"Eagle Eye (S2)": "Орлиный глаз👉с2👈",
+"Sharpen focus for deadly precision, amplify critical hits, and make every shot count.": "👉Увеличение критического урона / Оглушение при разрушении брони👈Повышайте концентрацию для смертоносной точности, усиливайте критические попадания и делайте каждый выстрел результативным",
+
+"Increased Crit Damage": "Бешенство",
+"Critical Hits deal more damage": "・ Убийства подряд на короткое время уверичивают урон используемого оружия.",
+
+"Big Hit": "Быстрое прицеливание",
+"Increases Critical Damage dealt to full health enemies.": "・ Повышение скорости прицеливания",
+
+"Last Shots Plus": "Мощный удар ",
+"Deal more damage when your Weapon is low on ammo.": "・ Увеличивает критический урон, наносимый врагам с полным здоровьем.",
+
+"Rampage": "Последние выстрелы",
+"Getting rapid kills briefly increases weapon damage with that weapon.": " ・ Наносите больше урона, когда боеприпасы вашего оружия на исходе.",
+
+"Aim Faster": "Увеличение критического урона",
+"Aim Down Sights faster.": "・ Критические попадания наносят больше урона..",
+
+"Armor Breaker": "Разрушитель брони",
+"Stun and damage enemies when breaking enemy armor.": "・ Оглушайте и наносите урон врагам при разрушении их брони.",
+
+// Боевое подразделение👉с3👈
+"Warband (S3)": "Боевое подразделение👉с3👈",
+"Summon powerful allies and turn the tide of battle by amplifying their impact on the battle ground": "",
+Призывайте могущественных союзников и переломите ход Битвы, усилив их влияние на поле боя.
+"Plague": "Чума",
+"Eliminated enemies can explode and convert nearby enemies into allies": "・ Уничтоженные противники могут взорваться и превратить ближайших врагов в союзников.",
+
+"Bloodrunner": "Кровавый бегун",
+"Gain a damage bonus for rapid multi-kills - ends if momentum stops": "・ Получайте дополнительный урон от быстрых многократных убийств. Держите его активным с быстрыми убийствами.",
+
+"Smuggler": "Контрабандист",
+"Chance to instantly replenish used equipment and Scorestreaks": "・ Шанс мгновенно пополнить использованное снаряжение и серии очков.",
+
+"Healthhounds": "Здоровые псы ",
+"Damage and kills from summoned allies restore a portion of health": "・ Урон и убийства от призванных союзников, восстанавливают часть здоровья.",
+
+"Wirehand": "Кибер-руки",
+"Eliminations have a chance to spawn an attack drone": "・ Ликвидации с некоторой вероятностью вызывают атакующий дрон.",
+
+"Steelhand": "Стальная рука",
+"Picked-up armor auto-equips immediately": "・ Подобранная броня автоматически экипируется.",
+
+// ☢️Экзотические навыки👉S1👈Exotic Skill
 
 
-"": "",
-"": "",
+// ☢️Кошмарные навыки☢️Nightmare Skill☢
+
+// Экзотическое оружие
 // "Weapon": "Оружие",
 "Torrent": "Поток☢️Torrent",
 "Full-auto assault rifle equipped to discharge a relentless stream of gunfire. Affinity for Graviton Rounds.": "Full-auto assault rifle equipped to discharge a relentless stream of gunfire. Affinity for Graviton Rounds. Прицел BaMx зеркальный EAM",
@@ -356,9 +617,8 @@ const translations = {
 "Reboot": "Перезагрузка",
 "Semi-auto pistol augmented for versatility and power. Affinity for Shock Rounds": "💎Полуавтоматический пистолет, усовершенствованный для универсальности и мощности. Совместим с шоковыми патронами.🔴Reboot",
 
-"": "",
-"": "",
-
+"— In-game description": "— Внутриигровое описание",
+"Complete Mission:": "Завершите миссию:",
 "Complete a ": "Завершите",
 
 "Black Hole": "Чёрная дыра",
@@ -374,10 +634,13 @@ const translations = {
 "Season 1": "сезон 1",
 "Season 2": "сезон 2",
 "Season 3": "сезон 3",
+"Season Three": "сезон 3",
 "Reloaded": "Перезагрузка",
 "Base Weapon": "Тип оружия",
+"Unlocked by Default": "Разблокировка по умолчанию",
 "Unlock": "Разблокировка",
-
+"wingsuit": "крылатый костюм",
+"Wingsuit": "Крылатый костюм",
 "Vehicle": "Транспорт",
 "Seats": "Места",
 "Activities": "Активности",
@@ -389,9 +652,20 @@ const translations = {
 "Achievements/Call of Duty: Black Ops 7": "Достижения/Call of Duty: Black Ops 7",
 "Achievements/Trophies": "Достижения/трофеи",
 "Opening Transcript": "Вступительная транскрипция",
+"Exotic Weapons": "Экзотическое оружие",
 "Exotic Weapon": "Экзотическое оружие",
 "Exotic Effect": "Экзотический эффект",
+// Зоны
+"Zone I": "Зона I",
+"Zone II": "Зона II",
+"Zone III": "Зона III",
+"Zone IV": "Зона IV",
+"Nightmare / Zone V": "Зона V🩸Кошмар",
+"Recommended Combat Rating": "Рекомендуемый боевой рейтинг",
+"Recommended": "Рекомендованный",
+"Damage": "Урон",
 //"Exotic": "экзотическим",
+" weapon.": " оружием.",
 "Cutscenes": "Видеосцены"
 };
 
