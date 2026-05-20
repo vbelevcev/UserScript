@@ -2,7 +2,7 @@
 // @icon https://github.com/SkyK0T/SkyTV/blob/main/skykotik.gif?raw=true
 // @name         👉CoD WikiBO7 Endgame👈☭🇷🇺🩸Русский перевод
 // @namespace    https://callofduty.fandom.com/wiki/Endgame_(Black_Ops_7)
-// @version      1
+// @version      1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0
 // @description  Русская локализация для руководства с сайта CoD Wiki Endgame Black Ops 7 Endgame.🩸Постепенно буду добавлять, и то что неперевено.
 // @author       vbelevcev
 // @match        https://callofduty.fandom.com/wiki/Endgame_(Black_Ops_7)*
@@ -668,7 +668,7 @@ const translations = {
 "Affinity for Shock Rounds": "Особенно эффективен с шоковыми патронами",
 
 "Overcharge": "Перезаряд🩸Overcharge",
-"Pump shotgun enhanced to push the perceived limits of CQB lethality.": "💎🩸Гравитонные патроны🩸Перезарядка в ближнем бою🩸",
+"Pump shotgun enhanced to push the perceived limits of CQB lethality.": "💎Помповый дробовик, позволяющий по-новому взглянуть на идею ближнего боя.💎Красно-оранжевый камо💎Фотонные патроны💎От бедра💎🩸Гравитонные патроны🩸Перезарядка в ближнем бою🩸",
 "Affinity for Incendiary Rounds": "Предрасположенность к зажигательным патронам",
 
 "Killswitch": "Убийственный выключатель🩸Killswitch",
@@ -692,7 +692,7 @@ const translations = {
 "Affinity for Photon Rounds": "Особенно эффективен с фотонными патронами",
 
 "Neurowall": "Нейростена🩸Neurowall",
-"Double-action rifle enhanced for deadly precision. ": "💎Самовзводная винтовка повышенной точности.🩸Фотонные патроны🩸Отсутствие отдачи🩸",
+"Double-action rifle enhanced for deadly precision. ": "💎Самовзводная винтовка повышенной точности.🩸Фотонные патроны🩸Отсутствие отдачи🩸💎💎Шрапнельные патроны💎Сверхлёгкость",
 "Affinity for Neuro-Disruption Rounds": "Совместима с нейроразрушающими патронами.",
 
 "Zeotrope": "Зеотроп🩸Zeotrope",
@@ -719,16 +719,144 @@ const translations = {
 "Semi-auto pistol augmented for versatility and power.": "💎Полуавтоматический пистолет, усовершенствованный для универсальности и мощности.🩸",
 "Affinity for Shock Rounds": "Совместим с шоковыми патронами",
 
+//💎💎💎Экзотический верстак  модификатор💎💎💎
+// 1 этап Экзотическая редкость 3.5 Кратность урона.
+// 2 случайный бонус к характеристикам
+// 3 случайный тип пули экзотический эффект
+// 💎Патроны🔴FULL UTILITY BONUS AND EXOTIC EFFECTS LIST
+// Exotic Effects (Ammo Mods) Can be applied to every weapon type.
+// "Exotic Effects (Ammo Mods) Can be applied to every weapon type.": "",
+"Neuro-Disruption Rounds": "🧟Нейроразрушающие патроны🧟",
+"Each bullet has a chance to temporarily turn a Normal or Special Enemy into an ally.": "🧟Мозгоразложитель🧟・ Каждая пуля даёт шанс временно превратить обычного или особого противника в союзника.",
+
+"Frost Rounds": "❄️Морозные патроны❄️",
+"Each bullet has a chance to slow a Normal or Special Enemy and increase the damage they receive.": "❄️Морозилка❄️・ Каждая пуля даёт шанс замедлить обычного или особого противника, а также увеличит получаемый им урон",
+
+"Shock Rounds": "⚡Шоковые патроны⚡",
+"Each bullet has a chance to stun a Normal or Special Enemy and generate an electric damage field": "⚡Выключатель⚡・ Каждая пуля даёт шанс оглушить обычного или особого противника, а также создать электрическое поле,наносящее урон",
+
+"Mortar Rounds": "🎉Миномётные патроны/снаряды🎉",
+"Each bullet that hits a Normal or Special Enemy has a chance to launch fireworks that target enemies": "🎉Фейрверки🎉・ Каждая пуля, попавшая в обычного или особого врага, имеет шанс запустить фейерверки, поражённые врагами",
+
+"Incendiary Rounds": "🔥Зажигательные патроны🔥",
+"Each bullet has a chance to apply a burn effect on Normal and Special Enemies, dealing damage over time.": "🔥・ Каждая пуля даёт шанс поджечь обычного или особого противника, нанося переодический урон",
+
+"Graviton Rounds": "🌀Гравитонные патроны🌀",
+"Each bullet has a chance to spawn a black hole on a Normal or Special Enemy, lethally displacing nearby enemies": "🌀・ Каждая пуля даёт шанс создать на месте обычного или особого противника чёрную дыру,которая засасывает и убивает соседних врагов",
+
+"Photon Rounds": "❤️‍🩹Фотонные патроны❤️‍🩹",
+"Each bullet has a chance to transform a Normal or Special Enemy health into a Healing Glyph.": "❤️‍🩹Целебный знак❤️‍🩹・ Каждая пуля даёт шанс превратить здоровье обычного или особого противника в целебный знак",
+
+"Shrapnel Rounds": "💥Шрапнельные патроны💥",
+"Each bullet that hits a Normal or Special Enemy has a chance to create an explosion that destroys armor": "💥Крушилка💥Осколочные патроны💥・ Каждая пуля, попавшая в обычного или особого противника, даёт шанс,вызвать взрыв, уничтожающий броню",
+
+// Affinity Effect
+"Big Game": "Большая игра",
+
+"Affinity Effect": "Бонус к экзотическому оружию",
+"can turn elite enemies": "действуют и на элитных врагов",
+"Light Mend can activate on elite enemies": "❤️Фотонные патроны❤️действуют и на элитных врагов",
+"can slow elite enemies": "действуют и на элитных врагов",
+"can stun elite enemies": "действуют и на элитных врагов",
+"can activate on elite enemies": "действуют и на элитных врагов",
+"can burn elite enemies": "действуют и на элитных врагов",
+"can activate on Elite enemies": "действуют и на элитных врагов",
+"form a black hole that pulls in enemies before teleporting away nearby survivors": "создают чёрную дыру, которая притягивает врагов, а затем телепортирует выживших поблизости",
+"Blast Chain": "Взрывная цепь",
+"On explosion, 3 additional explosions occur rapidly": "При взрыве происходит ещё 3 взрыва ещё быстрее",
+"Blast Shield": "Щит от взрыва",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+// 💎Модификаторы💎Handling Mods:🔴UTILITY BONUS Only applied to certain weapons.
+// Utility Bonus
+"Akimbo Velox 5.7": "Парные Velox 5.7 ",
+"Dual wield weapon": "Двойное оружие",
+
+"Ammo Recharger🔴": "",
+"Weapon ammo is refilled while stowed🔴": "",
+
+"Combat Ready": "Боеготовность",
+"Massive improvement to ADS and Sprint to Fire speeds": "・ Радикальное повышение скорости прицеливания и изготовки после бега",
+
+"Escalation": "Эскалация",
+"Fire Rate increases the longer you hold down the trigger": "・ Чем дольше вы удерживаете спуск, тем выше становится скорострельность",
+
+"Explosive Bullets": "Взрывные пули",
+"Bullets explode, dealing extra area damage": "・ Пули взрываются, нанося дополнительный урон🔴XR-3 ION",
+
+"Fast Fire🔴": "",
+"The weapon has a higher Rate of Fire🔴": "",
+
+"Free Fire": "Пальба",
+"All ammo is in one large magazine": "・ Все боеприпасы помещаются в один огромный магазин",
+
+"From the Hip": "От бедра",
+"Massive improvement to Hip Fire Spread and Recoil": "・ Значительное улучшение разброса при стрельбе от бедра и отдачи",
+
+"Grenade Bullets": "Пули-гранаты",
+"Bullets explode, dealing extra area damage": "・ Пули взрываются, нанося дополнительный урон.",
+
+"Hip-Inferno": "Хипповая преисподняя",
+"Shots from the hip deal more damage": "・Выстрелы от бедра наносят больше урона",
+
+"Kill and Run": "Убивай и беги",
+"Killing enemies give temporary movement speed boost": "・ Убийство противников даёт временное ускорение перемещения🔴Ближний бой",
+
+"Lifestyle🔴": "",
+"Killing enemies with a headshot will regen health🔴": "",
+
+"Lightspeed": "Скорость света",
+"All movement speeds increased": "・ Увеличение всех способов перемещения",
+
+"Longburst": "Длинная очередь",
+"The number of bullets fired in each burst is increased.": "・ Увеличено количество пуль, выпускаемых в каждой очереди",
+
+"Longshot": "Дальний выстрел",
+"Massive improvement to Damage Range": "・ 💎Значительное улучшение эффективной дальности🔴Дробовики",
+"Recoil is slightly decreased": "Отдача немного повышена",
+
+"Melee Reload": "Перезарядка в ближнем бою",
+"Weapon magazine immediately filled after a melee hit": "・ Магазин оружия мгновенно заполняется после удара в ближнем бою",
+
+"Recoil Delete": "Отсутствие отдачи",
+"Massive improvement to Recoil Control": "・ Существенное улучшение контроля отдачи",
+
+"Reload Swap": "Перезарядка при смене",
+"Weapon is always reloaded when swapped to": "・ Когда вы переключаетесь на другое оружие, оно автоматически перезаряжается",
+
+"Sharpshooter": "Меткий стрелок",
+"Upper Torso hits deal same damage as Headshots": "・ Попадания в верхнюю часть торса, наносят такой же урон, как и в голову",
+
+"Slasher": "Рубака",
+"Faster melee attack speed": "・ Повышенная скорость ближнего боя",
+
+"Ultra-light": "Сверхлёгкость",
+"Player movement speed is not reduced while in ADS": "・ Скорость перемещения игрока не снижается в режиме прицеливания",
+
+"Zero Waste": "Нулевой расход",
+"Bullets fired have a 50% chance to not consume ammo": "・ Выпущенные пули с 50% вероятностью не расходуют боеприпасы",
+
+
 
 "— In-game description": "— Внутриигровое описание",
 "Complete Mission:": "Завершите миссию:",
 "Complete a ": "Завершите",
 
 "Black Hole": "Чёрная дыра",
-"Big Game": "Большая игра",
-"Blast Chain": "Взрывная цепь",
-"Blast Shield": "Щит от взрыва",
 
+"- All": "- Все",
+" except": " кроме",
 "Affinity Effects": "Тип эффекта",
 "Description": "Описание",
 "Season 01": "сезон 1",
