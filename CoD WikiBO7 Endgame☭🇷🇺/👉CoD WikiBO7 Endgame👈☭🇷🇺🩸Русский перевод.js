@@ -2,7 +2,7 @@
 // @icon https://github.com/SkyK0T/SkyTV/blob/main/skykotik.gif?raw=true
 // @name         👉CoD WikiBO7 Endgame👈☭🇷🇺🩸Русский перевод
 // @namespace    https://callofduty.fandom.com/wiki/Endgame_(Black_Ops_7)
-// @version      1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0
+// @version      1
 // @description  Русская локализация для руководства с сайта CoD Wiki Endgame Black Ops 7 Endgame.🩸Постепенно буду добавлять, и то что неперевено.
 // @author       vbelevcev
 // @match        https://callofduty.fandom.com/wiki/Endgame_(Black_Ops_7)*
@@ -538,8 +538,8 @@ const translations = {
 
 // Боевое подразделение👉с3👈
 "Warband (S3)": "Боевое подразделение👉с3👈",
-"Summon powerful allies and turn the tide of battle by amplifying their impact on the battle ground": "",
-Призывайте могущественных союзников и переломите ход Битвы, усилив их влияние на поле боя.
+"Summon powerful allies and turn the tide of battle by amplifying their impact on the battle ground": "Призывайте могущественных союзников и переломите ход Битвы, усилив их влияние на поле боя.",
+
 "Plague": "Чума",
 "Eliminated enemies can explode and convert nearby enemies into allies": "・ Уничтоженные противники могут взорваться и превратить ближайших врагов в союзников.",
 
@@ -558,64 +558,167 @@ const translations = {
 "Steelhand": "Стальная рука",
 "Picked-up armor auto-equips immediately": "・ Подобранная броня автоматически экипируется.",
 
-// ☢️Экзотические навыки👉S1👈Exotic Skill
 
+// ☢️Экзотические навыки👉S1👈Exotic Skill
+"Mega Punch": "Мегаудар",
+"Replaces Weapon gun butt with a deadly punch that knocks back enemies": "☢️ Замена удара прикладом на мощный удар кулаком, отбрасывающий противников.",
+"Upgrade: Hits more enemies": "・ Улучшение: Поражает больше врагов.",
+"Final Upgrade: Chance to trigger a Photon Round that damages enemies and drops a healing capsule": "・ Итоговое улучшение: Вероятность срабатывания фотонного патрона, который наносит урон врагами сбрасывает капсулу исцеления.",
+
+"Conjuration": "Колдовство",
+"Kill enough enemies to summon Toxin Butterflies that harass and damage enemies": "☢️ Убейте достаточно врагов, чтобы призвать токсичных бабочек, которые будут беспокоить врагов и наносить им урон.",
+"Upgrade: Further increase of damage dealt by Toxin Butterflies": "・ Улучшение: Повышение урона, наносимого токсичными бабочками.",
+"Final Upgrade: Greater increase of damage dealt by Toxin Butterflies": "・ Итоговое улучшение: Дальнейшее повышение урона, наносимого токсичными бабочками.",
+
+"Echo Shell": "Эхо-Оболочка",
+"Significantly reduces damage taken from behind": "☢️ Значительно снижает урон, получаемый сзади.",
+"Upgrade: Further reduction of damage taken from behind": "・ Улучшение: Дальнейшее снижение урона, получаемое сзади.",
+"Final Upgrade: Greater reduction of damage taken from behind": "・ Итоговое улучшение: Значительное снижение урона, получаемое сзади.",
+
+"Celebration": "Торжество",
+"Enemies damaged or affected by Equipment have a chance to trigger Mortar Rounds that target enemies": "☢️ Противники, получившие урон или подвергшиеся воздействию снаряжения, имеют шанс вызвать миномётные снаряды, наводящиеся на противников.",
+"Upgrade: Further increase of chances to trigger Mortar Rounds.": "・ Улучшение: Увеличение шансов срабатывания миномётных снарядов.",
+"Final Upgrade: Greater increase of chances to trigger Mortar Rounds": "・ Итоговое улучшение: Значительное увеличение шансов срабатывания миномётных снарядов.",
+
+
+"Enemies damaged or affected by Equipment have a chance to trigger a Frost Cloud that slows enemies": "☢️ Противники, получившие урон или подвергшиеся воздействию снаряжения, имеют шанс вызвать морозное облако, которое замедлит врагов.",
+"Upgrade: Also damages enemies": "・ Улучшение: Также наносит урон врагам.",
+"Final Upgrade: Affected enemies will transfer frost to nearby enemies": "・ Итоговое улучшение: Подвергшиеся воздействию враги перенесут морозный эффект на других противников поблизости.","Frost Cloud": "Морозное облако",
+
+
+"On fatal damage become temporarily invulnerable instead of dying": "🔴Воскрешение👉Самовостанавливающая самореанимация каждую минуту👈☢️ При получении смертельного урона вы становитесь временно неуязвимым вместо того, чтобы умереть.",
+"Once per match": "Доступно 1 раз за бой.",
+"Upgrade: Gain full health after surviving": "・ Улучшение: Получите полное здоровье, пережив получение фатаньго урона.",
+"Final Upgrade: Instead of surviving fatal damage, get a Permanent Self Revive that recharges when not downed": "・ Итоговое улучшение: Вместо выживания при нанесении вам смертельного урона, получите постоянную самореанимацию, которая восстанавливается, когда вы не находитесь, в состоянии тяжёлого ранения.",
+"Resurrection️": "Воскрешение",
+
+"Shattered Shield": "Разбитый щит",
+"Stun and damage nearby enemies when Armor Plates break": "☢️ Оглушает и наносит урон ближайшим противникам при разрушении бронепластин.",
+"Upgrade: Final break gives you temporary invulnerability": "・ Улучшение: Последнее разрушение даёт временную неуязвимость.",
+"Final Upgrade: Final break triggers a Photon Round that deals damage and drops a healing capsule": "・ Итоговое улучшение: Последнее разрушение даёт фотонный патрон, который наносит урон врагам и сбрасывает капсулу исцеления.",
+
+"Graviton Reaction": "Реакция на гравитон",
+"Taking melee hits can spawn a Black Hole that damages and displaces enemies": "☢️ Получение урона в ближнем бою может создать чёрную дыру, которая наносит удар противникам и перемещает их",
+"Upgrade: Also triggered by ranged attacks": "・ Улучшение: Также срабатывает при атаке на расстоянии.",
+"Final Upgrade: Also triggers on enemies in an area around the affected enemy": "・ Итоговое улучшение: Также срабатывает на врагов вблизи поражённого противника.",
+
+"Conductive Shot": "Электроудар👉S3 Reloaded👈",
+"When firing any weapon sometimes a taser is fired that can get glued to the enemy and inflict tics of damage for a limited time": "☢️ Выстрел из оружия также может выпустить снаряд-тазер, который может прикрепляться к врагу и наносить ему периодический урон в течении ограниченного времени.",
+"Upgrade: Increase the amount of tasers fired per activation": "・ Улучшение: Увеличивает количество тазеров за выстрел.",
+"Final Upgrade: Longer duration and now tasers can get glued to all enemies": "・ Итоговое улучшение: Увеличенное время действия. Тазер также теперь может быть прикреплён ко всем врагам.",
 
 // ☢️Кошмарные навыки☢️Nightmare Skill☢
 
+"Powerful skills acquired by defeating a Glitch Boss": "Мощные навыки, полученные за победу над боссом сбоя.",
+"Can equip and upgrade 1 Nightmare Skill": "Можно выбрать и улучшить 1 кошмарный навык",
+"Nova Strike": "Удар Нова",
+
+"Melee strikes have a chance to generate an electrical area that damages enemies.": "☢️ Удары в ближнем бою могут создать электрическое поле, наносящее урон противникам.",
+"Upgrade: When the electrical area is created, the struck enemy is also Shocked": "・ Улучшение: при создании электрического поля на поражённого противника также накладывается Шок.",
+"Final Upgrade: The electrical area persists briefly and Shocks enemies who pass through it (cooldown)": "・ Итоговое улучшение: электрическое поле сохраняется в течении короткого времени и накладывает Шок на врагов, проходящих через него (есть период восстановления).",
+
+"Phoenix Burst": "Взрыв Феникса",
+"When at low health, trigger an explosion that damages enemies and fully restores health (cooldown)": "☢️ При низком уровне здоровья игрока происходит взрыв, наносящий урон противникам и полностью восстанавливающий запас здоровья (есть период восстанавления).",
+"Upgrade: After the explosion, gain full ammo and temporarily infinite ammo from the magazine": "・ Улучшение: получение полного боезапаса и временного бесконечного боезапаса.",
+"Final Upgrade: After the explosion, gain temporary immunity": "・ Итоговое улучшение: получение временной неуязвимости после взрыва.",
+
+
+"Wingsuiting over enemies drops an incendiary trail on them": "☢️ Полёт в крылатом костюме над противниками оставляет на земле зажигательный след.",
+"Upgrade: Increases how long the incendiary trail remains on the ground": "・ Улучшение: увеличивает длительность нахождения зажигательного следа на земле.",
+"Final Upgrade: Flashbangs normal and Special enemies within the incendiary area": "・ Итоговое улучшение: оглушает обычных и особых противников в зоне зажигательного следа.",
+"Hellwing": "Адское крыло",
+
+
+"Weapon attacks have a chance to trigger Photon, Incendiary, Frost, or Shock effects": "☢️ Атаки оружием могут наложить эффекты Фотон, Зажигание, Мороз или Шок",
+"Upgrade: Can also trigger Graviton, Mortar, Shrapnel, and Neuro-Disruption effects": "・ Улучшение: также могут накладывать эффекты Гравитон, Миномёт, Шрапнель и Нейроразрушение.",
+"Final Upgrade: Enemies hit by Chaos Rounds have a chance to trigger a random Chaos Round on nearby enemies": "・ Итоговое улучшение: противники поражённые Патронами хаоса, могут наложить случайный эффект на ближайших противников.",
+"Chaos Rounds": "Патроны хаоса",
+
+"Frost Vortex": "Морозный вихрь",
+"Bullets have a chance to create a Snowstorm that pulls in enemies": "☢️ Пули могут создать снежную бурю,притягивающую врагов.",
+"Upgrade: Applies Frost to normal enemies in the Snowstorm": "・ Улучшение: накладывает Мороз на обычных врагов в снежной буре.",
+"Final Upgrade: Also applies Frost to Special and Elite enemies in the Snowstorm": "・ Итоговое улучшение: также накладывает Мороз на особых и элитных врагов в снежной буре.",
+
+"Wingman Unit": "Напарник",
+"Doing multiple kills in a short period of time spawns a Drone that follows you while shooting nearby enemies.": "☢️ Несколько убийств за короткий промежуток времени вызывают появление дрона, который следует за вами, стреляя в ближайших врагов.",
+"Upgrade: Increases the rate of fire and duration of the Drone.": "・ Улучшение: Увеличивает скорострельность и длительность работы дрона.",
+"Final Upgrade: Drone shots have a chance to trigger Shrapnel effect.": "・ Итоговое улучшение: Выстрелы дрона с определённой вероятностью вызывают эффект шрапнели.",
+"Nightmare Skill": "Кошмарные навыки",
+
 // Экзотическое оружие
 // "Weapon": "Оружие",
-"Torrent": "Поток☢️Torrent",
-"Full-auto assault rifle equipped to discharge a relentless stream of gunfire. Affinity for Graviton Rounds.": "Full-auto assault rifle equipped to discharge a relentless stream of gunfire. Affinity for Graviton Rounds. Прицел BaMx зеркальный EAM",
+"Torrent": "Поток🩸Torrent",
+"Full-auto assault rifle equipped to discharge a relentless stream of gunfire.": "💎Автоматическая штурмовая винтовка, способная вести непрерывный огонь.🩸Прицел BaMx зеркальный EAM🩸Фотонные патроны🩸Перезарядка при смене💎Нейроразрушающие патроны🩸Морозные патроны🩸Пальба🩸",
+"Affinity for Graviton Rounds": "Особенно эффективна с гравитонными патронами",
 
-"Flashburst": "Световой залп☢️Flashburst",
-"Burst marksman rifle specialized for raining sustained and lethal suppression. Affinity for Frost Rounds": "",
+"Flashburst": "Световой залп🩸Flashburst",
+"Burst marksman rifle specialized for raining sustained and lethal suppression.": "💎Пехотная винтовка, стреляющая очередями, оптимизированная для длительного и смертоносного подавления сил противника.💎Бело-голубой камо💎Морозные патроны💎Взрывные пули💎🩸Гравитонные патроны🩸Пальба🩸",
+"Affinity for Frost Rounds": "Совместим с морозными патронами",
 
-"Redline": "Красная черта☢️Redline",
-"Full-auto light machine gun optimized to unleash an onslaught of destruction. Affinity for Mortar Rounds": "💎Автоматический ручной пулемёт, оптимизированный для массового уничтожения.Особенно эффективен миномётными снарядами",
+"Redline": "Красная черта🩸Redline",
+"Full-auto light machine gun optimized to unleash an onslaught of destruction": "💎Автоматический ручной пулемёт, оптимизированный для массового уничтожения.🩸Зажигательные патроны🩸Боеготовность🩸Гравитонные патроны🩸Экскалация🩸Морозные патроны🩸Отсутствие отдачи🩸",
+"Affinity for Mortar Rounds": "Особенно эффективен с миномётными снарядами",
 
-"Ghostmind": "Ghostmind",
-"": "",
+"Ghostmind": "Призрачный разум🩸Ghostmind",
+"Bolt action sniper rifle augmented for decisive and destructive strikes": "💎Снайперская винтовка с продольно-скользящим затвором, адаптированная для решительных и мощных ударов.🩸Морозные патроны🩸Нулевой расход🩸",
+"Affinity for Neuro-Disruption Rounds": "Особенно эффективна с нейроразрушающими патронами",
 
-"Backdrive": "Обратный ход☢️Backdrive 👉s1👈",
-"Full-auto submachine gun refined for both aggressive and precise assault. Affinity for Shock Rounds": "💎Автоматический пистолет-пулемёт, оптимизированный для точных и агрессивных штурмовых атак.Особенно эффективен с шоковыми патронами",
+"Backdrive": "Обратный ход🩸Backdrive 👉s1👈",
+"Full-auto submachine gun refined for both aggressive and precise assault.": "💎Автоматический пистолет-пулемёт, оптимизированный для точных и агрессивных штурмовых атак.🩸Миномётные снаряды🩸Дальний выстрел🩸",
+"Affinity for Shock Rounds": "Особенно эффективен с шоковыми патронами",
 
+"Overcharge": "Перезаряд🩸Overcharge",
+"Pump shotgun enhanced to push the perceived limits of CQB lethality.": "💎🩸Гравитонные патроны🩸Перезарядка в ближнем бою🩸",
+"Affinity for Incendiary Rounds": "Предрасположенность к зажигательным патронам",
 
-"Overcharge": "Перезарядка☢️Overcharge",
-"": "",
+"Killswitch": "Убийственный выключатель🩸Killswitch",
+"Full-auto assault rifle modified for raw power and aggression.": "💎Автоматическая штурмовая винтовка, оптимизированная для агрессивного штурма.🩸Шоковые патроны🩸Боеготовность💎Розовое камо👉Гравитонные патроны👉Пальба🩸",
+"Affinity for Shrapnel Rounds": "Совместима со шрапнельными патронами",
 
-"Swarmforge": "Кузница роя☢️Swarmforge",
-"Full-auto submachine gun adapted for ultra-dynamic and ruthless CQC. Affinity for Photon Rounds": "💎Автоматический пистолет-пулемёт, адаптированный для дмнамичного и безжалостного ближнего боя.Особенно эффективен с фотонными патронами",
+"Swarmforge": "Кузница роя🩸Swarmforge",
+"Full-auto submachine gun adapted for ultra-dynamic and ruthless CQC.": "💎Автоматический пистолет-пулемёт, адаптированный для динамичного и безжалостного ближнего боя.🩸Фотонные патроны. Каждая пуля даёт шанс превратить здоровье обычного или особого противника в целебный знак.🩸Крупная дичь.Фотонные патроны могут действовать на элитных противников🩸Двойное действие.Временно ускорит восстановление здоровья🩸💎Зелёный камо🩸Нейроразрушающие патроны🩸От бедра💎",
+"Affinity for Photon Rounds": "Особенно эффективен с фотонными патронами",
 
-"Criticality": "Criticality☢️Критичность",
-"": "",
+"Criticality": "Критичность🩸Criticality",
+"Charge launcher enhanced for field efficiency. ": "💎🩸",
+"Affinity for Mortar Rounds": "Особенно эффективен с миномётными снарядами",
 
-"Hypersurge": "Гипервал☢️Hypersurge",
-"": "",
+"Hypersurge": "Гипервал🩸Hypersurge",
+"Full-auto light machine gun augmented for precise or reckless lethality.": "💎Смертоносный и лёгкий автоматический ручной пулемёт, подходящий для точного или шквального огня.💎Красно-жёлтое камо👉Зажигательные патроны👉Пальба🩸",
+"Affinity for Shock Rounds": "Особенно эффективен с шоковыми патронами",
 
-"Malspike": "Malspike",
-"": "",
+"Malspike": "Злобный шип💎Malspike",
+"Burst pistol modified for maximum, small-profile firepower.": "💎Пистолет для ведения плотного огня очередями.💎Голубое камо👉Шоковые патроны👉Парные Velox 5.7👉В карантинной зоне 4 уровня нашёл🩸",
+"Affinity for Photon Rounds": "Особенно эффективен с фотонными патронами",
 
-"Neurowall": "Нейростена☢️Neurowall",
-"Double-action rifle enhanced for deadly precision. Affinity for Neuro-Disruption Rounds": "💎Самовзводная винтовка повышенной точности. Совместима с нейроразрушающими патронами",
+"Neurowall": "Нейростена🩸Neurowall",
+"Double-action rifle enhanced for deadly precision. ": "💎Самовзводная винтовка повышенной точности.🩸Фотонные патроны🩸Отсутствие отдачи🩸",
+"Affinity for Neuro-Disruption Rounds": "Совместима с нейроразрушающими патронами.",
 
-"Zeotrope": "Зеотроп☢️Zeotrope",
-"Dual-barrel shotgun modified for aggressive pursuit and execution. Affinity for Frost Rounds": "💎Двухствольный дробовик, модифицированный для агрессивного преследования и уничтожения. Совместим с морозными патронами",
+"Zeotrope": "Зеотроп🩸Zeotrope",
+"Dual-barrel shotgun modified for aggressive pursuit and execution.": "💎Двухствольный дробовик, модифицированный для агрессивного преследования и уничтожения.🩸Миномётные патроны🩸Убивай и беги🩸",
+"Affinity for Frost Rounds": "Совместим с морозными патронами",
 
-"Barrage": "Шквал☢️Barrage️",
-"Full-auto SMG augmented for unrelenting assault. Affinity for Shrapnel Rounds": "💎Автоматический пистолет-пулемёт, усиленный для неумолимой атаки. Совместим со шрапнелью.",
+"Barrage": "Шквал🩸Barrage️",
+"Full-auto SMG augmented for unrelenting assault. ": "💎Автоматический пистолет-пулемёт, усиленный для неумолимой атаки.🩸Нейроразрушающие патроны🩸Сверхлёгкость🩸",
+"Affinity for Shrapnel Rounds": "Совместима со шрапнельными патронами",
 
 "Collateral": "Побочный ущерб🩸Collateral",
-"Full-auto assault rifle enhanced with ricochet rounds for widespread lethality. Affinity for Incendiary Rounds": "💎Автоматическая штурмовая винтовка, усиленная рикошетными патронами для широкого поражения целей. Предрасположенность к зажигательным патронам",
+"Full-auto assault rifle enhanced with ricochet rounds for widespread lethality. ": "💎Автоматическая штурмовая винтовка, оснащённая рикошетными патронами для большей летальности.💎Автоматическая штурмовая винтовка, усиленная рикошетными патронами для широкого поражения целей.🩸",
+"Affinity for Incendiary Rounds": "Предрасположенность к зажигательным патронам",
 
 "Continuum": "Непрерывность🩸Continuum",
-"Bolt-action sniper rifle modified for aggression and potency. Affinity for Graviton Rounds": "💎Снайперская винтовка с продольно-скользящим затвором, оптимизированная для агрессивного боя. Особенно эффективна с гравитонными патронами",
+"Bolt-action sniper rifle modified for aggression and potency.": "💎Снайперская винтовка с продольно-скользящим затвором, оптимизированная для агрессивного боя.🩸Миномётные патроны🩸Нулевой расход🩸",
+"Affinity for Graviton Rounds": "Особенно эффективна с гравитонными патронами",
 
-"Pulsebreach": "Разрыв пульса🔴Pulsebreach",
-"Burst Marksman Rifle modified for maximum destructive power. Affinity for Shrapnel Rounds": "💎Пехотная винтовка с очередями, модифицированная для максимальной разрушительной силы. Совместима со шрапнельными патронами",
+"Pulsebreach": "Разрыв пульса🩸Pulsebreach",
+"Burst Marksman Rifle modified for maximum destructive power.": "💎Пехотная винтовка с очередями, модифицированная для максимальной разрушительной силы.🩸Гравитонные патроны🩸Длинная очередь🩸",
+"Affinity for Shrapnel Rounds": "Совместима со шрапнельными патронами",
 
-"Reboot": "Перезагрузка",
-"Semi-auto pistol augmented for versatility and power. Affinity for Shock Rounds": "💎Полуавтоматический пистолет, усовершенствованный для универсальности и мощности. Совместим с шоковыми патронами.🔴Reboot",
+"Reboot": "Reboot🩸Перезагрузка",
+"Semi-auto pistol augmented for versatility and power.": "💎Полуавтоматический пистолет, усовершенствованный для универсальности и мощности.🩸",
+"Affinity for Shock Rounds": "Совместим с шоковыми патронами",
+
 
 "— In-game description": "— Внутриигровое описание",
 "Complete Mission:": "Завершите миссию:",
