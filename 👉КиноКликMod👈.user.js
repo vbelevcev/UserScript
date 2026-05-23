@@ -40,48 +40,43 @@
 
     const SAFE_RESOURCES = [
 { title: "KinoBox.in", url: "http://kinobox.in/film/%id/", icon: "https://favicon.yandex.net/favicon/kinobox.in" },
-{ title: "KinoBox web.app", url: "https://kinohost.web.app/movie/%id/", icon: "https://favicon.yandex.net/favicon/kinobox.tv" },
+{ title: "KinoBox web.app", url: "https://kinohost.web.app/movie/%id/", icon: "https://favicon.yandex.net/favicon/kinobox.in" },
+// { title: "🎬 KinohubLive VPN (зеркало KinoBox)", url: "http://tv.kinohub.vip/film/%id/", icon: "https://favicon.yandex.net/favicon/kinobox.in" }, // @KinohubLive Чат: @KinohubChat
+
+{ title: "Arkmv.ru", url: "https://arkmv.ru/#/watch/%id/", icon: "https://favicon.yandex.net/favicon/kinobox.in" },
+{ title: "MovieLab", url: "https://movielab.one/movies/%id/", icon: "https://favicon.yandex.net/favicon/movielab.one" },
+{ title: "Zona New", url: "https://w1.zona.im/search/%text/#", icon: "https://favicon.yandex.net/favicon/w1.zona.im" },
+{ title: "Zona old", url: "https://w140.zona.plus/search/%text/#", icon: "https://favicon.yandex.net/favicon/w140.zona.plus" },
+
+// { title: "KinoSave Kinopoisk.cfd", url: "https://www.kinopoisk.cfd/film/%id/", icon: "https://favicon.yandex.net/favicon/kinokosta.shop" },// www.kinopoisk.one https://habster.sbs/film/713978/ habster.sbs
+{ title: "KinoSave habster.sbs", url: "https://habster.sbs/film/%id/", icon: "https://favicon.yandex.ru/favicon/kinokosta.shop" },
+{ title: "Flcksbr top SSpoisk", url: "http://flcksbr.top/film/%id/", icon: "https://favicon.yandex.net/favicon/kinopoisk.film" }, // fbdomen.cfd kinokino.vip https://t.me/flicksbar3
+{ title: "Flcksbr kinokino.vip", url: "http://kinokino.vip/film/%id/", icon: "https://favicon.yandex.net/favicon/kinopoisk.film" },
+//{ title: "Flcksbr Kinopoisk.Film", url: "http://www.kinopoisk.film/film/%id/", icon: "https://favicon.yandex.net/favicon/kinopoisk.film" },
+
+{ title: "KinoFree", url: "http://kinofree.su/search?key=%text", icon: "https://favicon.yandex.net/favicon/kinofree.su" },
+{ title: "Kinoteatr.kg🍿", url: "https://kinoteatr.kg/search?q=%text", icon: "https://favicon.yandex.net/favicon/kinoteatr.kg" },
 
 { title: "Rutube", url: "https://rutube.ru/search/?query=%text %year", icon: "https://favicon.yandex.net/favicon/rutube.ru" },
 { title: "VKVideo", url: "https://vkvideo.ru/?q=%text %year", icon: "https://favicon.yandex.net/favicon/vkvideo.ru" },
 { title: "Яндекс Видео", url: "https://yandex.ru/video/search?text=%text", icon: "https://favicon.yandex.net/favicon/ya.ru" },
 { title: "Яндекс Дзен", url: "https://dzen.ru/search?query=%text", icon: "https://favicon.yandex.net/favicon/dzen.ru/" },
 { title: "YouTube", url: "https://www.youtube.com/results?search_query=%text %year", icon: "https://favicon.yandex.net/favicon/youtube.com" },
-
-{ title: "Kino.Akseonowww", url: "https://kino.akseonowww.ru/#/%id/", icon: "https://favicon.yandex.net/favicon/kino.akseonowww.ru" },
-{ title: "ReYoHoHo", url: "https://reyohoho.com/?q=%text", icon: "https://favicon.yandex.net/favicon/reyohoho.com" },
-// { title: "ReYoHoHo", url: "https://reyohoho.github.io/reyohoho/#/movie/%id/", icon: "https://favicon.yandex.net/favicon/reyohoho.github.io" },
-
-{ title: "🎬 KinohubLive", url: "http://tv.kinohub.vip/film/%id/", icon: "https://favicon.yandex.net/favicon/kinobox.in" }, // @KinohubLive Чат: @KinohubChat
-
-{ title: "Kinokosta kinosave@proton.me", url: "https://n1.kinokosta.shop/film/%id/", icon: "https://favicon.yandex.net/favicon/kinokosta.shop" },
-{ title: "Kinopoisk.cfd", url: "https://www.kinopoisk.cfd/film/%id/", icon: "https://favicon.yandex.net/favicon/kinokosta.shop" },// www.kinopoisk.one
-
-{ title: "Flcksbr Kinopoisk.Film", url: "http://www.kinopoisk.film/%id/", icon: "https://favicon.yandex.net/favicon/kinopoisk.film" },
-{ title: "Flcksbr top SSpoisk", url: "http://flcksbr.top/film/%id/", icon: "https://favicon.yandex.net/favicon/kinopoisk.film" },
-{ title: "Flcksbr xyz SSpoisk", url: "http://flcksbr.xyz/film/%id/", icon: "https://favicon.yandex.net/favicon/kinopoisk.film" }, // flcksbr.top
-
-
-{ title: "Kinopoisk.gg iframe.cloud", url: "https://www.kinopoisk.gg/{type}/{id}-{translit}", icon: "https://favicon.yandex.net/favicon/iframe.cloud" },
-{ title: "Zona New", url: "https://w1.zona.im/search/%text/#", icon: "https://favicon.yandex.net/favicon/w1.zona.im" },
-{ title: "Zona", url: "https://w140.zona.plus/search/%text/#", icon: "https://favicon.yandex.net/favicon/w140.zona.plus" },
-{ title: "🍿Kinoteatr.kg🍿", url: "https://kinoteatr.kg/search?q=%text", icon: "https://favicon.yandex.net/favicon/kinoteatr.kg" },
-{ title: "Kinofree", url: "http://kinofree.su/search?key=%text", icon: "https://favicon.yandex.net/favicon/kinofree.su" },
-
-
-{ title: "Filmix.my", url: "https://filmix.my/search/=%text", icon: "https://favicon.yandex.net/favicon/filmix.my" },
-{ title: "HDRezka", url: "http://hdrezka-home.tv/search/?do=search&subaction=search&q=%text", icon: "https://favicon.yandex.net/favicon/hdrezka-home.tv" }, //hdrezka.co hdrezka.cm hdrezka.me
-{ title: "LostFilm", url: "http://lostfilm.tv/search/?q=%text", icon: "https://favicon.yandex.net/favicon/lostfilm.tv" },
-{ title: "SeasonVar", url: "http://seasonvar.ru/search?q=%text", icon: "https://favicon.yandex.net/favicon/seasonvar.ru" },
-
-{ title: "Flixomo", url: "https://flixmomo.org/search?q=%text", icon: "https://favicon.yandex.net/favicon/flixmomo.org" },
 { title: "MyMail Video", url: "https://my.mail.ru/video/search?q=%text %year", icon: "https://favicon.yandex.net/favicon/my.mail.ru" },
-{ title: "Kinokong", url: "https://kinokong.li/search?q=%text", icon: "https://favicon.yandex.net/favicon/kinokong.li" },
-{ title: "GooDle", url: "https://www.google.com/search?q=%text %year", icon: "https://favicon.yandex.net/favicon/google.com" },
 
-{ title: "Kinorium", url: "http://ru.kinorium.com/search/?q=%text", icon: "https://favicon.yandex.net/favicon/ru.kinorium.com" },
-{ title: "IMDB", url: "http://imdb.com/find/?q=%text", icon: "https://favicon.yandex.net/favicon/imdb.com" },
-{ title: "TeamHD.org", url: "https://teamhd.org/browse?search=%text&year=%YEAR", icon: "https://favicon.yandex.net/favicon/teamhd.org" },
+{ title: "ReYoHoHo (VPN)", url: "https://reyohoho.com/?q=%text", icon: "https://favicon.yandex.net/favicon/reyohoho.com" },
+{ title: "Filmix.my (VPN)", url: "https://filmix.my/search/=%text", icon: "https://favicon.yandex.net/favicon/filmix.my" },
+{ title: "HDRezka (VPN)", url: "http://hdrezka-home.tv/search/?do=search&subaction=search&q=%text", icon: "https://favicon.yandex.net/favicon/hdrezka-home.tv" }, //hdrezka.co hdrezka.cm hdrezka.me
+{ title: "LostFilm (VPN)", url: "http://lostfilm.tv/search/?q=%text", icon: "https://favicon.yandex.net/favicon/lostfilm.tv" },
+{ title: "SeasonVar (VPN)", url: "http://seasonvar.ru/search?q=%text", icon: "https://favicon.yandex.net/favicon/seasonvar.ru" },
+{ title: "Flixomo (VPN)", url: "https://flixmomo.org/search?q=%text", icon: "https://favicon.yandex.net/favicon/flixmomo.org" },
+{ title: "Kinokong (VPN)", url: "https://kinokong.li/search?q=%text", icon: "https://favicon.yandex.net/favicon/kinokong.li" },
+
+{ title: "Google", url: "https://www.google.com/search?q=%text %year", icon: "https://favicon.yandex.net/favicon/google.com" },
+
+{ title: "Kinorium (база фильмов)", url: "http://ru.kinorium.com/search/?q=%text", icon: "https://favicon.yandex.net/favicon/ru.kinorium.com" },
+{ title: "IMDB (база фильмов)", url: "http://imdb.com/find/?q=%text", icon: "https://favicon.yandex.net/favicon/imdb.com" },
+{ title: "TeamHD.org (авторизация)", url: "https://teamhd.org/browse?search=%text&year=%YEAR", icon: "https://favicon.yandex.net/favicon/teamhd.org" },
 
 { title: "Traktorr (агрегатор торрентов)", url: "http://tragtorr.in/search/%text", icon: "https://favicon.yandex.net/favicon/tragtorr.in" },
 { title: "Rutracker Org", url: "https://rutracker.org/forum/tracker.php?nm=%text %year", icon: "https://favicon.yandex.net/favicon/rutracker.net" },
@@ -96,8 +91,11 @@
 { title: "Торрент-искатель", url: "https://torrentseeker.com/search.php?q=%text", icon: "https://favicon.yandex.net/favicon/torrentseeker.com" },
 { title: "Nyaa", url: "https://nyaa.land/?f=0&c=0_0&q=%text", icon: "https://favicon.yandex.net/favicon/nyaa.land" },
 
+//{ title: "Kino.Akseonowww", url: "https://kino.akseonowww.ru/#/%id/", icon: "https://favicon.yandex.net/favicon/kino.akseonowww.ru" },
+// { title: "ReYoHoHo", url: "https://reyohoho.github.io/reyohoho/#/movie/%id/", icon: "https://favicon.yandex.net/favicon/reyohoho.github.io" },
+// { title: "Kinokosta kinosave@proton.me", url: "https://n1.kinokosta.shop/film/%id/", icon: "https://favicon.yandex.net/favicon/kinokosta.shop" },
+// https://kinotac.org
 /*
-
 { title: "", url: "", icon: "https://favicon.yandex.net/favicon/" },
 { title: "", url: "", icon: "https://favicon.yandex.net/favicon/" },
 { title: "", url: "", icon: "https://favicon.yandex.net/favicon/" },
