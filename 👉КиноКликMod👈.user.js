@@ -49,7 +49,8 @@
 { title: "YouTube", url: "https://www.youtube.com/results?search_query=%text %year", icon: "https://favicon.yandex.net/favicon/youtube.com" },
 
 { title: "Kino.Akseonowww", url: "https://kino.akseonowww.ru/#/%id/", icon: "https://favicon.yandex.net/favicon/kino.akseonowww.ru" },
-{ title: "ReYoHoHo", url: "https://reyohoho.github.io/reyohoho/#/movie/%id/", icon: "https://favicon.yandex.net/favicon/reyohoho.github.io" },
+{ title: "ReYoHoHo", url: "https://reyohoho.com/?q=%text", icon: "https://favicon.yandex.net/favicon/reyohoho.com" },
+// { title: "ReYoHoHo", url: "https://reyohoho.github.io/reyohoho/#/movie/%id/", icon: "https://favicon.yandex.net/favicon/reyohoho.github.io" },
 
 { title: "🎬 KinohubLive", url: "http://tv.kinohub.vip/film/%id/", icon: "https://favicon.yandex.net/favicon/kinobox.in" }, // @KinohubLive Чат: @KinohubChat
 
