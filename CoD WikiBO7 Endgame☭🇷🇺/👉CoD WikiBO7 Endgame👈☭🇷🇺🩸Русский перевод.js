@@ -377,7 +377,7 @@ const translations = {
 
 // Хирург
 "Surgeon": "Хирург",
-"Stay alive and keep others fighting, heal fast, revive quicker, and fight back from the brink": "👉Бесконечная самореанимация (восстановление 1 минута)👈 Оставайтесь в живых и поддерживайте других бойцов, быстро лечитесь, быстрее возрождайтесь и сражайтесь до последнего.",
+"Stay alive and keep others fighting, heal fast, revive quicker, and fight back from the brink": "👉Убийство в коме реанимирует👈 Оставайтесь в живых и поддерживайте других бойцов, быстро лечитесь, быстрее возрождайтесь и сражайтесь до последнего.",
 "Health Recovery": "Восстановление здоровья",
 "Health recovery starts sooner after you stop taking damage": "・ После прекращения получения урона восстановление здоровья начинается быстрее.",
 
@@ -777,11 +777,16 @@ const translations = {
 "": "",
 "": "",
 "": "",
-"": "",
+
 // 💎Модификаторы💎Handling Mods:🔴UTILITY BONUS Only applied to certain weapons.
 // Utility Bonus
+"Utility Bonuses offer additional upgrades to improve the stats and firepower of the different weapons": "Полезные бонусы  предлагают дополнительные улучшения для улучшения характеристик и огневой мощи различных видов оружия",
+"Some Utility Bonuses are exclusive to specific weapons or weapon classes": "Некоторые бонусы эксклюзивны для конкретного оружия или классов оружия",
+"Utility Bonus": "Полезные бонусы",
+"Availability": "Применяется",
+
 "Akimbo Velox 5.7": "Парные Velox 5.7 ",
-"Dual wield weapon": "Двойное оружие",
+"Dual wield weapon": "👉Только экзотическое👈 Двойное оружие",
 
 "Ammo Recharger🔴": "",
 "Weapon ammo is refilled while stowed🔴": "",
@@ -855,6 +860,76 @@ const translations = {
 
 "Black Hole": "Чёрная дыра",
 
+
+
+
+
+
+"Assault Rifles": "Штурмовые винтовки️",
+"Assaults": "Штурмовые винтовки️",
+"SMGs": "Пистолеты - пулемёты",
+"Submachine Guns": "Пистолеты - пулемёты",
+"Shotguns": "Дробовики️",
+"Light Machine Guns": "Ручные пулемёты️",
+"LMGs": "Ручные пулемёты️",
+"Marksman Rifles": "Пехотные винтовки",
+"Marksmans": "Пехотные винтовки",
+"Sniper Rifles": "Снайперские винтовки",
+"Snipers": "Снайперские винтовки",
+"Pistols": "Пистолеты",
+"Launchers": "Гранатомёты",
+"Special Weapons": "Особое оружие",
+"Specials": "Особое оружие",
+"Special": "Особое оружие",
+"Melee Weapons": "🔪Рукопашное оружие",
+"Melee": "🔪Рукопашное оружие",
+"Other melee weapons": "Другое оружие ближнего боя",
+"Fists": "Кулаки",
+
+"This is the list of attachments in": "Это список прикреплений в",
+"Attachments": "Прикрепления",
+"VAS Convergence Foregrip": "Передняя рукоять VAS Convergence",
+"Underbarrel foregrip to improve bullet deviation and recoil stabilization for a smoother and more predictable recoil pattern": "Подствольная передняя рукоять для снижения разброса пуль и стабилизации отдачи для более плавной и предсказуемой стабилизации отдачи",
+"Bullet Deviation": "Отклонение пули",
+"First Two Shot Recoil Control": "Контроль отдачи при первых двух выстрелах",
+"Vertical Recoil Control": "Контроль вертикальной отдачи",
+
+
+
+
+"Shadow SK Masterkey, 12-Gauge": "Shadow SK Masterkey, 12-й калибр",
+"X9 Maverick Javelin Assembly": "Сборка Javelin для X9 Maverick",
+"MK.78 Lightframe PDW Conversion": "Конверсия PDW с легкой рамой для MK.78",
+"Warden 308 Badlands Pistol Kit": "Пистолетный комплект Warden 308 Badlands",
+"Carbon 57 Fabricator Mag": "Магазин-фабрикатор Carbon 57",
+"Ryden 45K Apex Sweeper Rig": "💥Ryden 45K Apex Sweeper Rig",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+
+
+
+
+"It was added as part of the": "Он был добавлен в рамках",
+" is a underbarrel ": " это подствольное ",
+" featured in": " используемое в",
+"Pros": "Плюсы",
+"Most weapon categories": "Большинство категорий оружия",
+"Compatible with": "Совместим с",
+"Type": "Тип",
+"Underbarrel": "Подставная планка",
+"Equipped onto the": "Оснащены на",
+"General information": "Главная информация",
+" Battle Pass": " Боевого пропуска",
+"Page ": "Страница ",
+"attachment": "прикрепление",
+"Statistics": "Статистика",
+
+"-All": "- Все",
 "- All": "- Все",
 " except": " кроме",
 "Affinity Effects": "Тип эффекта",
@@ -865,10 +940,14 @@ const translations = {
 "Season 1": "сезон 1",
 "Season 2": "сезон 2",
 "Season 3": "сезон 3",
-"Season Three": "сезон 3",
+"Season One": "сезон 1",
+"Season Two": "сезон 2",
+"Season Three": "3 сезона",
 "Reloaded": "Перезагрузка",
+"Weapons in": "Оружие в",
 "Base Weapon": "Тип оружия",
 "Unlocked by Default": "Разблокировка по умолчанию",
+"Unlocked": "Разблокировка",
 "Unlock": "Разблокировка",
 "wingsuit": "крылатый костюм",
 "Wingsuit": "Крылатый костюм",
@@ -876,6 +955,7 @@ const translations = {
 "Seats": "Места",
 "Activities": "Активности",
 "Assignments": "Задания",
+"Appears in": "Появляется",
 "World Events": "Мировые события",
 "Guild Strike": "👉Удар Гильдии👈",
 "Country": "Страна",
@@ -886,6 +966,7 @@ const translations = {
 "Exotic Weapons": "Экзотическое оружие",
 "Exotic Weapon": "Экзотическое оружие",
 "Exotic Effect": "Экзотический эффект",
+
 // Зоны
 "Zone I": "Зона I",
 "Zone II": "Зона II",
@@ -895,8 +976,208 @@ const translations = {
 "Recommended Combat Rating": "Рекомендуемый боевой рейтинг",
 "Recommended": "Рекомендованный",
 "Damage": "Урон",
+
 //"Exotic": "экзотическим",
 " weapon.": " оружием.",
+"Gallery": "Изображения",
+"Endgame Logo in": "Логотип режима Финал в",
+"Endgame Icon.": "Иконка режима Финал",
+
+
+"A total of 20 documents can be found across Avalon": "Всего по всему Авалону можно найти 20 документов",
+"Main article: ": "Основная статья здесь: ",
+"Endgame (Black Ops 7)/Intel": "BO7 Документы режима Финал ",
+"Intel": "Документы",
+"This is the list of characters from": "Это список персонажей из",
+"": "",
+
+
+"Impossible Eoster X": "Невероятный зостер Х🧟Impossible Eoster X",// AK-27
+"": "Огненный сигил☢️",  // AK-27
+"": "Диссонанс☢️",  // AK-27
+"Red Mystifier": "Красный мистификатор🧟Red Mystifier", // MK35 ISR
+"The Feels": "Чувства🧟The Feels", // Voyak KT-3
+"NO EGRT-5": "Нет EGRT-5🧟NO EGRT-5", // EGRT-17
+"Red Fiend Bull": "Бомбит бро?)))🧟Red Fiend Bull", // MADDOX RFB
+"": "Нейрорез", // MADDOX RFB
+
+"Nyxfall": "Нюксфол🧟Nyxfall", // M15 MOD 0
+"": "Красная роса",  // M15 MOD 0
+"": "Уложить их",  // M15 MOD 0
+"": "Радуга-1",  // M15 MOD 0
+"": "Легенда беты☢️",  // M15 MOD 0
+"Battlementicide": "Психотронная винтовка🧟Battlementicide", // MXR-17
+"": "Линия огня☢️",  // MXR-17
+"": "Поверхностный шифр☢️",  // MXR-17
+"Hang X": "Хан Х Z🧟Hang X", // X9 Maverick
+"Duality of Blam": "Двойственный бум🧟Duality of Blam", // DS20 MIRAGE
+"": "Приказ начальства☢️",  // DS20 MIRAGE
+"Utu Petition": "Петиция уту🧟Utu Petition", // Peacekeeper Mk1
+"": "Сладкоежка☢️",  //  Peacekeeper Mk1
+"": "Метка жнеца смерти☢️",  //  Peacekeeper Mk1
+
+"Meteoric Calamity": "Метеоритное действие🧟Meteoric Calamity", // MK.78
+"": "Опасная дистанция☢️", // MK.78
+"Soul Gormandizer": "Пожиратель душ🧟Soul Gormandizer", // Sokol 545
+"Ephialtes & Otus": "🧟Ephialtes & Otus", // с прикреплением XM325 Titan Wield
+"Ephialtes": "Эфиальт🧟Ephialtes", // XM325
+"": "Ритм☢️", // XM325
+
+"Desecrated Dualist": "Оскверненный дуализм🧟Desecrated Dualist", // M34 Novaline
+"": "О,черт☢️",  // M34 Novaline
+"": "Дизассемблер☢️",  // M34 Novaline
+"Micro Aerator": "Макроаэратор🧟Micro Aerator", // M8A1
+"": "Реставратор☢️",  // M8A1
+"": "Уровень дна☢️",  // M8A1
+"Mecha-Jiki": "Мехаджики🧟Mecha-Jiki", // SwordFish A1
+
+"ET2 Brutus & 872B": "ET2 Brutus & 872B", // Warden 308 Пистолетный комплект Warden 308 Badlands
+"ET2 Brutus": "ЕТ2 Брут🧟ET2 Brutus", // Warden 308
+"": "Интенсивность☢️",  // Warden 308
+
+"Hachiko": "Хатико🧟Hachiko", // Akita
+"Hachi & Co..": "Hachi & Co..", // Akita ScorchLink Akimbo
+"": "Эвакуация☢️", // Akita
+"Deja Boom": "Дежа Бум🧟Deja Boom", // Echo 12
+"": "Волкодав☢️",  // Echo 12
+"": "Ядерный жар☢️",  // Echo 12
+"X-10-SI-T Fracture": "Разлом Ре4льности🧟X-10-SI-T Fracture", // M10 Breacher
+"": "Всплеск☢️",  // M10 Breacher
+"Breccius Rebornus": "Breccius Rebornus", // SG12
+
+"L33T H4WX0R": "1337 Х4ЦK3R🧟L33T H4WX0R", // Hawker HX
+"MURK SKOGSRA": "Хмурая скогсна🧟MURK SKOGSRA", // Shadow SK
+"": "Фантом☢️",  // Shadow SK
+"": "Маршрутизация☢️",  // Shadow SK
+"Executive Order": "Executive Order", // Strider 300
+"Vscera Reconfigurator": "Дистанционный ампутатор🧟Vscera Reconfigurator", // VS Recon
+"": "Отключение☢️",  // VS Recon
+"": "Пронзающий шлемы☢️",  // VS Recon
+"Pandemonium-OG": "Пандемоний-OG🧟", // XR-3 Ion
+
+"El Cabron": "Эль каброн🧟El Cabron", // Carbon 57
+"UPYR 1819": "Упырь1819🧟UPYR 1819", // Dravec 45
+"": "Расчет☢️",  // Dravec 45
+"🧟AAtomic AArdwolf": "AAtomic AArdwolf", // Kogot-7
+"": "Первый свет",  // Kogot-7
+"": "🧟Атомная гиена🧟",  // Kogot-7
+
+"🧟Mach Diamond": "Mach Diamond", // MP40
+"MALPRACTITIONER-2500": "Паскудник-2500🧟MALPRACTITIONER-2500", // MPC-25
+"": "Час ноль☢️",  // MPC-25
+"": "Громовая спираль☢️",  // MPC-25
+"Taniwha Frenzy": "Ярость танивки🧟Taniwha Frenzy", // Razor 9mm
+"": "Связь команды☢️",  // Razor 9mm
+"": "Жидкостное охлаждение☢️",  // Razor 9mm
+"Malevolent Revenant": "Зловещий Мститель🧟Malevolent Revenant", // REV-46
+"Contagion Conductor": "Разносчик заразы🧟Contagion Conductor", // RK-9
+"Sybil Sentence": "Приговор Сивиллы🧟Sybil Sentence", // Ryden 45K
+"": "Наношторм☢️",  // Ryden 45K
+"": "Острый вихрь☢️",  // Ryden 45K
+"🧟Werewolf 47": "Werewolf 47", // Sturmwolf 45
+"Entendre": "Осмысленность🧟Entendre", // VST
+"🧟Double Entendre": "🧟Double Entendre", // VST Akimbo
+"": "Ледяная погибель☢️",  // VST
+
+"NO-KAP": "По факту🧟NO-KAP", // CODA 9
+"🧟PAK-D & NO-KAP": "PAK-D & NO-KAP", //  CODA 9 Акимбо
+"": "Диссоциативная фуга☢️",  // CODA 9
+"": "Добродетель️☢️",  // CODA 9
+"Geri": "Гери🧟Geri", // Jäger 45
+"🧟Geri & Freki": "Гери & Freki", // Jäger 45 Акимбо
+"Mustang": "🧟Mustang", // M1911
+"🧟Mustang & Sally": "Mustang & Sally", // M1911 Акимбо
+"Ruin": "Разрушение🧟Ruin", // Velox 5.7
+"": "Невысказанная истина☢️",  // Velox 5.7
+//"Rack & Ruin": "Rack & Ruin", // Velox 5.7 Акимбо
+
+"BAALIST AARTILLERY": "Баалистическая аартиллерия🧟BAALIST AARTILLERY", // AAROW 109
+"": "Мухобойка", // AAROW 109
+"Archimedes' Insight": "Озарение Архимеда🧟Archimedes' Insight", // A.R.C. M1
+
+// "Aralez K9S": "Aralez K9S", // Баллистический нож
+"Ticker Shock": "Электрошоковая дубинка🧟Ticker Shock", // Flatline Mk.II
+"Sawdistic Abyss": "Бездна жестоких лезвий🧟Sawdistic Abyss", // H311-SAW
+// "Muramasa Curse": "Muramasa Curse", // Katana
+"Pointed Remark": "Острая ремарка️🧟Pointed Remark", // Нож
+"Terminal Spike": "Терминальный всплеск🩸Terminal Spike", // Нож
+"": "Знаток ремесла", // Нож
+"Circuit Tactical": "Тактический контур🩸Circuit Tactical", // Нож
+
+"H1 Boltage": "HI молниеностность🧟H1 Boltage", // Crossbow
+"Napoleon Blownapart": "Наполеон Бумапарт🧟Napoleon Blownapart", // GDL Havoc
+// "Gaze of Circe": "Gaze of Circe", // Siren
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+
+"When upgraded via the ": "При улучшении через ",
+" it becomes the": " он становится",
+"Pack-a-Punch Machine": "Улучшайзер",
+"Battle Pass ": "Боевой пропуск ",
+"Instant Rewards Page": "страница мгновенной разблокировки",
+"BlackCell Exclusive": "BlackCell Эксклюзив",
+"Chain of Command": "Цепочка командования🩸Chain of Command",
+"This is the list of Primary ": "Это список основного ",
+" Primary Weapons": " Основное оружие",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
 "Cutscenes": "Видеосцены"
 };
 
