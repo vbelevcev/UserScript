@@ -1,15 +1,21 @@
 // ==UserScript==
-// @icon https://github.com/SkyK0T/SkyTV/blob/main/skykotik.gif?raw=true
+// @icon https://favicon.yandex.ru/favicon/callofduty.fandom.com
 // @name         👉CoD WikiBO7 Endgame👈☭🇷🇺🩸Русский перевод
 // @namespace    https://callofduty.fandom.com/wiki/Endgame_(Black_Ops_7)
-// @version      1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0
+// @version      11.6.26
 // @description  Русская локализация для руководства с сайта CoD Wiki Endgame Black Ops 7 Endgame.🩸Постепенно буду добавлять, и то что неперевено.
 // @author       vbelevcev
-// @match        https://callofduty.fandom.com/wiki/Endgame_(Black_Ops_7)*
 // @match        https://callofduty.fandom.com/wiki/*
+// @match        *://*.fandom.com/*
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
+
+/*
+https://callofduty.fandom.com/wiki/Endgame_(Black_Ops_7)*
+https://callofduty.fandom.com/wiki/*
+*://*.fandom.com/*
+*/
 
 (function () {
 'use strict';
@@ -21,9 +27,7 @@ const translations = {
 "This article was previously featured": "Ранее эта статья была представлена",
 
 "The final proving ground": "Последний испытательный полигон",
-"Survive,": "Выживай,",
-"adapt,": "адаптируйся",
-" uncover what really at stake": " выясняй, что на самом деле поставлено на карту",
+"Survive, adapt, and uncover what's really at stake": "Выживай, выясняй, что на самом деле поставлено на карту",
 
 "Mission Briefing": "Брифинг по миссии",
 
@@ -31,9 +35,6 @@ const translations = {
 "Players can play Endgame with any of their ": "Игроки могут играть в Endgame с любым из своих ",
 "Operators.": "Операторов.",
 "There are no player-versus-player encounters in Endgame, all players work together": "В Endgame нет PVP столкновений игроков против игроков, все игроки работают в команде вместе🩸",
-
-
-
 
 "For other uses, see": "О других значениях см.",
 "Endgame (disambiguation)": "Endgame (значения)",
@@ -158,8 +159,8 @@ const translations = {
 
 // Задания
 "List of Assignments": "Список заданий",
-"DAWG Escort": "🩸Сопровождение Робопса🩸",
-"Escort the DAWG to the Extraction Site": "Доставьте робопса в точку эвакуации",
+"D.A.W.G. Escort": "🩸Сопровождение Робопса🩸",
+"Escort the D.A.W.G. to the Extraction Site": "Доставьте робопса в точку эвакуации",
 
 "Evidence Collection": "🩸Сбор улик🩸",
 "Locate and defend the Guild Intel": "Сбейте СВВП Гильдии, чтобы получить важные данные",
@@ -206,7 +207,12 @@ const translations = {
 " they immediately exfil and are rewarded with a ": " они завершат бой и выйдут из игры и получат в награду ",
 "Once revealed, Glitch Fractures remain on the map and can be replayed indefinitely": "После прохождения, метка Разлом сбоя остаётся на карте бесконечно",
 
+"List of Glitch Fractures": "Список Разломов сбоя",
 "Glitch Fractures": "Разлом сбоя",
+"Root Crasher": "Крушитель корней 👉с2👈",
+"Link Forger": "Кователь связей ☢ 👉с3 Акт I👈",
+"Virus Injection": "Инъекция вируса👉с3 Перезагрузка Акт II👈",
+"Command Killer": "Убийца Командования 👉с4 Акт III",
 
 // Выход
 "Before the match timer runs out, Operators must seek out a friendly ": "Прежде чем истечет время матча, игроки должны найти подходящий самолет для посадки на СВВП ",
@@ -514,6 +520,7 @@ const translations = {
 "Decoy": "Ложная цель",
 "Taking significant damage deploys as Echo Unit that distracts enemies": "・ При получении значительного урона развёртывается солдат Эхо, который отвлекает врагов.",
 "": "",
+
 // Орлиный глаз👉с2👈
 "Eagle Eye (S2)": "Орлиный глаз👉с2👈",
 "Sharpen focus for deadly precision, amplify critical hits, and make every shot count.": "👉Увеличение критического урона / Оглушение при разрушении брони👈Повышайте концентрацию для смертоносной точности, усиливайте критические попадания и делайте каждый выстрел результативным",
@@ -680,7 +687,7 @@ const translations = {
 "Affinity for Photon Rounds": "Особенно эффективен с фотонными патронами",
 
 "Criticality": "Критичность🩸Criticality",
-"Charge launcher enhanced for field efficiency. ": "💎🩸",
+"Charge launcher enhanced for field efficiency.": "💎Пусковая установка, адаптированная к полевым условиям.🩸💎Голубой камо💎Морозные патроны💎Нулевой расход💎",
 "Affinity for Mortar Rounds": "Особенно эффективен с миномётными снарядами",
 
 "Hypersurge": "Гипервал🩸Hypersurge",
@@ -934,16 +941,7 @@ const translations = {
 " except": " кроме",
 "Affinity Effects": "Тип эффекта",
 "Description": "Описание",
-"Season 01": "сезон 1",
-"Season 02": "сезон 2",
-"Season 03": "сезон 3",
-"Season 1": "сезон 1",
-"Season 2": "сезон 2",
-"Season 3": "сезон 3",
-"Season One": "сезон 1",
-"Season Two": "сезон 2",
-"Season Three": "3 сезона",
-"Reloaded": "Перезагрузка",
+
 "Weapons in": "Оружие в",
 "Base Weapon": "Тип оружия",
 "Unlocked by Default": "Разблокировка по умолчанию",
@@ -1127,6 +1125,70 @@ const translations = {
 "Chain of Command": "Цепочка командования🩸Chain of Command",
 "This is the list of Primary ": "Это список основного ",
 " Primary Weapons": " Основное оружие",
+"Weapons in...": "Оружие в...",
+"Perks in...": "Перки в...",
+"Killstreaks in...": "Серии убийств в...",
+"Scorestreaks in...": "Серии очков в...",
+"Strike Chains": "Серия ударов в...",
+"Weapons": "Оружие",
+"Single Player": "Сюжет",
+"Characters": "Персонажи",
+"Perks": "Перки",
+"Maps": "Карты",
+"Gametypes": "Тип игры",
+"Killstreaks": "Серии убийств",
+"Warzone Era Games": "Игры серии Warzone",
+"Classic Era Games": "Классические игры",
+"Early Era Games": "Современные игры",
+"Zombies": "Зомби-режим",
+"Community": "Сообщество",
+"News": "Новости",
+"Affiliates and Friends": "Партнёры и друзья",
+"Policies and Guidelines": "Политика",
+"Usergroups": "Группы пользователей",
+"Forums": "Форумы",
+"Multiplayer": "Сетевая игра",
+"Games": "Игры",
+"Portable": "Мобильные игры",
+"Pages with broken file links": "Страницы с сломанными ссылками",
+
+"Season 01": "сезон 1",
+"Season 02": "сезон 2",
+"Season 03": "сезон 3",
+"Season 04": "сезон 4",
+"Season 05": "сезон 5",
+"Season 06": "сезон 6",
+"Season 1": "сезон 1",
+"Season 2": "сезон 2",
+"Season 3": "сезон 3",
+"Season 4": "сезон 4",
+"Season 5": "сезон 5",
+"Season 6": "сезон 6",
+"Season One": "сезон 1",
+"Season Two": "сезон 2",
+"Season Three": "сезон 3",
+"Season Four": "сезон 4",
+"Season Five": "сезон 5",
+"Season Six": "сезон 6",
+"Reloaded": "Перезагрузка",
+"Campaign Levels of ": "Миссии компании в ",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+
+
+"Endgame": "Финал",
+"Avalon": "Авалон",
+"Objectives": "Активности",
+
 "": "",
 "": "",
 "": "",
@@ -1161,6 +1223,29 @@ const translations = {
 "": "",
 "": "",
 "": "",
+// Фортнайт
+
+"This page is under construction": "Эта страница находится в активной стадии разработки",
+"Please refrain from editing the page if another user is actively doing so as to avoid edit conflicts": "Пожалуйста, воздерживайтесь от редактирования страницы, если другой пользователь активно это делает, чтобы избежать конфликтов правок",
+"This page is a ": "Эта страница — ",
+"Some content on this page may be missing or incomplete, you can help by": "Некоторые материалы на этой странице могут отсутствовать или быть неполными, вы можете помочь, ",
+"stub": "заготовка",
+" and Behavior": " и поведение",
+"Battle Pass": "Боевой пропуск",
+"Chapter": "Глава",
+"Ch. ": "гл. ",
+"Mini-Season ": "Мини-Сезон ",
+"Springfield Island": "Остров Спрингфилд",
+"Island": "Остров",
+"Battle Royale": "Королевская Битва",
+"Sprites": "Спрайты",
+"In-Game": "В-Игре",
+"Lore": "Предыстория",
+" it!": " его!",
+"expanding": "расширив",
+"": "",
+"": "",
+
 "": "",
 "": "",
 "": "",
@@ -1178,6 +1263,21 @@ const translations = {
 "": "",
 "": "",
 "": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+
+
+// Не трогать конец
 "Cutscenes": "Видеосцены"
 };
 
