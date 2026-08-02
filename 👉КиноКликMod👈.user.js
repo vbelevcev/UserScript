@@ -3,7 +3,7 @@
 // @name         👉КиноКликMod👈
 // @description  Добавляет на Кинопоиске кнопку бесплатного просмотра фильмов и сериалов,и ищет на популярных ресурсах/трекерах
 // @author       4c5688 vbelevcev Mod
-// @version      1.1
+// @version      2.8.2026
 // @namespace
 // @match        *://*.kinopoisk.ru/*
 // @match        *://*.kinopoisk.ru/*
@@ -15,55 +15,88 @@
 // @match        https://www.kino-teatr.ru/*/movie/*//
 // @match        *://*.imdb.com/title/*
 
-//
 // @match        *://letterboxd.com/film/*
 // @match        *://tapeop.dev/*
 
 // @license      CC BY-SA
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
+// ==/UserScript==
 
 /*
 Это ссылки на оригинал, без моих изменений
- https://greasyfork.org/ru/scripts/558634-киноклик
- https://greasyfork.org/ru/users/1546943-4c5688
- https://greasyfork.org/ru/scripts/558634-%D0%BA%D0%B8%D0%BD%D0%BE%D0%BA%D0%BB%D0%B8%D0%BA
- Версия от 16.3.2026 г.
+https://greasyfork.org/ru/scripts/558634-киноклик
+https://greasyfork.org/ru/users/1546943-4c5688
+https://greasyfork.org/ru/scripts/558634-%D0%BA%D0%B8%D0%BD%D0%BE%D0%BA%D0%BB%D0%B8%D0%BA
+Версия от 16.3.2026 GitHub или 20.3.2026 на greasyfork
 */
-// ==/UserScript==
 
+/**/
 
 (function() {
     'use strict';
-
     const SAFE_RESOURCES = [
-{ title: "KinoBox.in", url: "http://kinobox.in/film/%id/", icon: "https://favicon.yandex.net/favicon/kinobox.in" },
+
+{ title: "KinoBox", url: "http://kinobox.in/film/%id/", icon: "https://favicon.yandex.net/favicon/kinobox.in" },
+/*
+@KinohubLive https://t.me/s/KinohubLiveЧат: @KinohubChat https://web.telegram.org/k/?account=2#@KinohubChat
+KinoBox web.app
+on.kinohub.vip
 { title: "KinoBox web.app", url: "https://kinohost.web.app/movie/%id/", icon: "https://favicon.yandex.net/favicon/kinobox.in" },
-// { title: "🎬 KinohubLive VPN (зеркало KinoBox)", url: "http://tv.kinohub.vip/film/%id/", icon: "https://favicon.yandex.net/favicon/kinobox.in" }, // @KinohubLive Чат: @KinohubChat
+{ title: "🎬 KinohubLive VPN (зеркало KinoBox)", url: "http://tv.kinohub.vip/film/%id/", icon: "https://favicon.yandex.net/favicon/kinobox.in" },
+*/
 
-{ title: "Arkmv.ru", url: "https://arkmv.ru/#/watch/%id/", icon: "https://favicon.yandex.net/favicon/kinobox.in" },
-{ title: "MovieLab", url: "https://movielab.one/movies/%id/", icon: "https://favicon.yandex.net/favicon/movielab.one" },
-{ title: "Zona New", url: "https://w1.zona.im/search/%text/#", icon: "https://favicon.yandex.net/favicon/w1.zona.im" },
-{ title: "Zona old", url: "https://w140.zona.plus/search/%text/#", icon: "https://favicon.yandex.net/favicon/w140.zona.plus" },
+{ title: "KinoSave", url: "https://www.kinopoisk.cfd/film/%id/", icon: "https://favicon.yandex.net/favicon/kinokosta.shop" },
+/* KinoSave https://t.me/s/kinosavebuzz https://t.me/+mOb82x-ajswzYmZi https://web.telegram.org/k/?account=2#@kinosavebuzz
+kinopoisk.cfd -актуальное зеркало
+habster.sbs
+kinokosta.shop -не работает
+kinopoisk.one
+*/
 
-// { title: "KinoSave Kinopoisk.cfd", url: "https://www.kinopoisk.cfd/film/%id/", icon: "https://favicon.yandex.net/favicon/kinokosta.shop" },// www.kinopoisk.one https://habster.sbs/film/713978/ habster.sbs
-{ title: "KinoSave habster.sbs", url: "https://habster.sbs/film/%id/", icon: "https://favicon.yandex.ru/favicon/kinokosta.shop" },
-{ title: "Flcksbr top SSpoisk", url: "http://flcksbr.top/film/%id/", icon: "https://favicon.yandex.net/favicon/kinopoisk.film" }, // fbdomen.cfd kinokino.vip https://t.me/flicksbar3
-{ title: "Flcksbr kinokino.vip", url: "http://kinokino.vip/film/%id/", icon: "https://favicon.yandex.net/favicon/kinopoisk.film" },
-//{ title: "Flcksbr Kinopoisk.Film", url: "http://www.kinopoisk.film/film/%id/", icon: "https://favicon.yandex.net/favicon/kinopoisk.film" },
+{ title: "SSpoisk ", url: "http://flcksbr.top/film/%id/", icon: "https://favicon.yandex.net/favicon/kinopoisk.film" },
+/* SSpoisk Flcksbr https://t.me/s/flicksbar3
+Полноэкранная нормальная версия
+flcksbr.top автоподбор зеркала
+
+Половинная урезанная версия
+kinokino.vip автоподбор зеркала
+fbdomen.cfd
+villybizy.best
+villybizy.online
+fbfind.life - устарело
+kinopoisk.film -устарело
+smotvibe.cfd
+VPN xz
+sitebysite.lat
+smotvibe.sbs
+*/
+
 
 { title: "KinoFree", url: "http://kinofree.su/search?key=%text", icon: "https://favicon.yandex.net/favicon/kinofree.su" },
+{ title: "Zona New", url: "https://w1.zona.im/search/%text/#", icon: "https://favicon.yandex.net/favicon/w1.zona.im" },
+{ title: "Zona old", url: "https://w140.zona.plus/search/%text/#", icon: "https://favicon.yandex.net/favicon/w140.zona.plus" },
 { title: "Kinoteatr.kg🍿", url: "https://kinoteatr.kg/search?q=%text", icon: "https://favicon.yandex.net/favicon/kinoteatr.kg" },
+{ title: "MovieLab", url: "https://movielab.one/movies/%id/", icon: "https://favicon.yandex.net/favicon/movielab.one" },
 
-{ title: "Rutube", url: "https://rutube.ru/search/?query=%text %year", icon: "https://favicon.yandex.net/favicon/rutube.ru" },
-{ title: "VKVideo", url: "https://vkvideo.ru/?q=%text %year", icon: "https://favicon.yandex.net/favicon/vkvideo.ru" },
+/* Разбираться с поиском
+{ title: "Arkmv.ru", url: "https://arkmv.ru/#/watch/%id/", icon: "https://favicon.yandex.net/favicon/arkmv.ru" },
+https://liftw.ws/
+*/
+
+/* Видеоплатформы */
+{ title: "Rutube", url: "https://rutube.ru/search/?query=%text", icon: "https://favicon.yandex.net/favicon/rutube.ru" },
+{ title: "Rutube + год (только для фильмов)", url: "https://rutube.ru/search/?query=%text %year", icon: "https://favicon.yandex.net/favicon/rutube.ru" },
+{ title: "VKVideo", url: "https://vkvideo.ru/?q=%text", icon: "https://favicon.yandex.net/favicon/vkvideo.ru" },
+{ title: "VKVideo + год (только для фильмов)", url: "https://vkvideo.ru/?q=%text %year", icon: "https://favicon.yandex.net/favicon/vkvideo.ru" },
 { title: "Яндекс Видео", url: "https://yandex.ru/video/search?text=%text", icon: "https://favicon.yandex.net/favicon/ya.ru" },
 { title: "Яндекс Дзен", url: "https://dzen.ru/search?query=%text", icon: "https://favicon.yandex.net/favicon/dzen.ru/" },
 { title: "YouTube", url: "https://www.youtube.com/results?search_query=%text %year", icon: "https://favicon.yandex.net/favicon/youtube.com" },
 { title: "MyMail Video", url: "https://my.mail.ru/video/search?q=%text %year", icon: "https://favicon.yandex.net/favicon/my.mail.ru" },
-
+/* VPN */
 { title: "ReYoHoHo (VPN)", url: "https://reyohoho.com/?q=%text", icon: "https://favicon.yandex.net/favicon/reyohoho.com" },
 { title: "Filmix.my (VPN)", url: "https://filmix.my/search/=%text", icon: "https://favicon.yandex.net/favicon/filmix.my" },
-{ title: "HDRezka (VPN)", url: "http://hdrezka-home.tv/search/?do=search&subaction=search&q=%text", icon: "https://favicon.yandex.net/favicon/hdrezka-home.tv" }, //hdrezka.co hdrezka.cm hdrezka.me
+{ title: "HDRezka (VPN)", url: "http://hdrezka-home.tv/search/?do=search&subaction=search&q=%text", icon: "https://favicon.yandex.net/favicon/hdrezka-home.tv" },
+/* hdrezka.co hdrezka.cm hdrezka.me */
 { title: "LostFilm (VPN)", url: "http://lostfilm.tv/search/?q=%text", icon: "https://favicon.yandex.net/favicon/lostfilm.tv" },
 { title: "SeasonVar (VPN)", url: "http://seasonvar.ru/search?q=%text", icon: "https://favicon.yandex.net/favicon/seasonvar.ru" },
 { title: "Flixomo (VPN)", url: "https://flixmomo.org/search?q=%text", icon: "https://favicon.yandex.net/favicon/flixmomo.org" },
@@ -74,7 +107,7 @@
 { title: "Kinorium (база фильмов)", url: "http://ru.kinorium.com/search/?q=%text", icon: "https://favicon.yandex.net/favicon/ru.kinorium.com" },
 { title: "IMDB (база фильмов)", url: "http://imdb.com/find/?q=%text", icon: "https://favicon.yandex.net/favicon/imdb.com" },
 { title: "TeamHD.org (авторизация)", url: "https://teamhd.org/browse?search=%text&year=%YEAR", icon: "https://favicon.yandex.net/favicon/teamhd.org" },
-
+/* Торренты */
 { title: "Traktorr (агрегатор торрентов)", url: "http://tragtorr.in/search/%text", icon: "https://favicon.yandex.net/favicon/tragtorr.in" },
 { title: "Rutracker Org", url: "https://rutracker.org/forum/tracker.php?nm=%text %year", icon: "https://favicon.yandex.net/favicon/rutracker.net" },
 { title: "Rutracker Net", url: "https://rutracker.net/forum/tracker.php?nm=%text %year", icon: "https://favicon.yandex.net/favicon/rutracker.net" },
@@ -101,7 +134,7 @@
 */
 ];
 
-    const QUERY_DATA = {};
+const QUERY_DATA = {};
 
     function cleanQuery(str, lang='ru') {
         if(!str) return "";
@@ -201,10 +234,14 @@
                 const wrapper=document.createElement("div");
                 wrapper.className="kp-alt-wrapper";
 
-                const newBtn=document.createElement("button");
-                newBtn.id="rk-watch-btn";
-                newBtn.textContent="Просмотр";
-                newBtn.className="style_button__Awsrq style_buttonSize52__MBeHC style_buttonPrimary__Qn_9l";
+const newBtn=document.createElement("button");
+newBtn.id="rk-watch-btn";
+newBtn.textContent="🎬Просмотр";
+// Цвет текста на кнопке или 'blue' или '#00ff00' или 'rgb(255, 0, 0)'
+newBtn.style.color = "#DEB887";
+// Цвет фона на кнопке
+newBtn.style.backgroundColor = "#000000";
+newBtn.className="style_button__Awsrq style_buttonSize52__MBeHC style_buttonPrimary__Qn_9l";
 
                 const body=document.createElement("div");
                 body.className="kp-alt-body";
