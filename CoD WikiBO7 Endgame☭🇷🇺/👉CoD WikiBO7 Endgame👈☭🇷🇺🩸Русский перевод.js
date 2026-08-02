@@ -2,11 +2,12 @@
 // @icon https://favicon.yandex.ru/favicon/callofduty.fandom.com
 // @name         👉CoD WikiBO7 Endgame👈☭🇷🇺🩸Русский перевод
 // @namespace    https://callofduty.fandom.com/wiki/Endgame_(Black_Ops_7)
-// @version      11.6.26
+// @version      2.8.2026
 // @description  Русская локализация для руководства с сайта CoD Wiki Endgame Black Ops 7 Endgame.🩸Постепенно буду добавлять, и то что неперевено.
 // @author       vbelevcev
 // @match        https://callofduty.fandom.com/wiki/*
 // @match        *://*.fandom.com/*
+// @match        *://*.fortnite.gg/*
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
@@ -63,7 +64,7 @@ const translations = {
 "Endgame receives additional content post-launch, which began with the ": "Endgame получает дополнительный контент после запуска, который начался с ",
 "update.": "обновлении.",
 
-"'s": "",
+
 // Геймплей
 " is meant to be played repeatedly, with players progressing an Operator each time they drop in and extract successfully": " предназначен для многократного прохождения, при этом игроки повышают уровень оператора каждый раз, когда они успешно заходят в игру и выносят оружие",
 "Prior to launching the game, players may customize their loadout with a primary weapon, equipment, and a salvaged weapon from a previous run": "Перед запуском игры игроки могут настроить свое снаряжение, включив в него основное оружие, экипировку и оружие, найденное в предыдущем раунде",
@@ -187,14 +188,16 @@ const translations = {
 "Kill the ": "Ликвидируйте",
 
 
+"Deathclaw Hunt": "🩸Охота на Когтей Смерти🩸",
+"limited time mode": "ограниченное время",
+"Eliminate the Irradiated": "Уничтожить облучённых",
+"Deathclaws": "Когтей смерти",
 
 //
 "The ultimate objective of any run is to kill ": "Конечная цель любого забега - убить ",
 "Gideon Falkner": "Доктор Фолклер",
-" located on an island facility within the Tier IV zone": " он находится на острове зоне IV",
-"Doing so will reward the player greatly, including with an ": "За это игрок будет щедро вознагражден, в том числе ",
-
-
+" located on an island facility within the Tier IV zone": " который находится в зоне IV на острове",
+"Doing so will reward the player greatly, including with an ": "За победу, если игрок выберет их в качестве оперативника, дадут скинам No Fear для операторов 👉Мейсон👉Сэмюэлс👉Андерсон👉Вэй Линь👉Вермаак👉Завери👉Хурадо👉Гримм👉Фалькнер👉Бритва👉Эмма Кейган👉50/50👈, а также за победу наградят ",
 
 // Разлом сбоя
 
@@ -207,12 +210,15 @@ const translations = {
 " they immediately exfil and are rewarded with a ": " они завершат бой и выйдут из игры и получат в награду ",
 "Once revealed, Glitch Fractures remain on the map and can be replayed indefinitely": "После прохождения, метка Разлом сбоя остаётся на карте бесконечно",
 
-"List of Glitch Fractures": "Список Разломов сбоя",
+"List of Glitch Fractures": "Список разломов сбоя",
 "Glitch Fractures": "Разлом сбоя",
-"Root Crasher": "Крушитель корней 👉с2👈",
-"Link Forger": "Кователь связей ☢ 👉с3 Акт I👈",
-"Virus Injection": "Инъекция вируса👉с3 Перезагрузка Акт II👈",
-"Command Killer": "Убийца Командования 👉с4 Акт III",
+"Root Crasher": "Крушитель корней👉с2👈🩸Босс динозаврик Рекс🩸Разлом находится в локации F7👉За прохождение разлома одним из этих операторов👉Андерсон👉Вермаак👉Вэй Лин👉Карма👈дадут скин Файервол🩸Firewall для этого оператора",
+
+"Link Forger": "Кователь связей 👉Акт I Операция «Ядовитая пилюля»️☢️Operation Poison Pill👉с3👈🩸Босс Робот G-45🩸Разлом находится в локации G8👉За прохождение разлома одним из этих операторов👉Андерсон👉Гримм👉Мейсон👈дадут скин Перехват🩸 для этого оператора",
+
+"Virus Injection": "Инъекция вируса👉Акт II Операция «Разбитое зеркало»️☢️Operation Broken Mirror👉с3п👈🩸Босс Оскар🩸Разлом находится в локации I7 Колизей👉За прохождение разлома одним из этих операторов👉Вермаак👉Завери👉Хурадо️👈дадут скин Афтершок🩸Aftershok для этого оператора ",
+
+"Command Killer": "Убийца Командования👉Акт III Операция «Сокрушитель стен»️☢️👉с4👈🩸Босс Мишка Зурсу🩸Разлом находится в локации👉За прохождение разлома одним из этих операторов 👉50/50👉Бритва👉Фолкнер👈дадут скин Осколочный шок🩸Shatter Shock для этого оператора ",
 
 // Выход
 "Before the match timer runs out, Operators must seek out a friendly ": "Прежде чем истечет время матча, игроки должны найти подходящий самолет для посадки на СВВП ",
@@ -281,16 +287,14 @@ const translations = {
 "": "",
 "": "",
 "": "",
-"": "",
-"": "",
-"": "",
 
+
+"": "👉Улучшение экзотической способности 👉👈",
 
 // Главная способность
 "Major Abilities": "Главная способность",
-
 "Crash Cart": "Реаниматор",
-"Instantly revive downed squadmates within range, and provide temporary invulnerability for a short time. Can be used to self-revive when downed.": "Мгновенно реанимирует тяжело раненных союзников в пределах досегаемости и обеспечивает временную неуязвимость на короткое время. Можно использовать для самореанимации при тяжёлом ранении.",
+"Instantly revive downed squadmates within range, and provide temporary invulnerability for a short time. Can be used to self-revive when downed.": "Мгновенно реанимирует тяжело раненных союзников в пределах досегаемости и обеспечивает временную неуязвимость на короткое время. Можно использовать для самореанимации при тяжёлом ранении",
 
 "Active Camo": "Активный камуфляж",
 "Become nearly invisible for a short duration. Gunfire temporarily reveals your temporarily.": "На короткое время вы становитесь почти невидимыым. Стрельба временно раскрывает вас.",
@@ -317,14 +321,18 @@ const translations = {
 "Call in an armed Guild robot to fight enemies and assist you and your team. Can revive downed teammates when downed and do a small area of effect attack when swarmed.": "Вызовите вооружённого робота Гильдии,чтобы сражаться с врагами и помогать вам и вашей команде. Может реанимировать тяжелораненных союзников и наносить небольшой урон по области при скоплении врагов.",
 
 "Thermal Spike": "🔥Тепловой всплеск🔥",
-"Emit a powerful blast of flames that incinerate enemies. Flames persist in the area for a short duration.": "🔥Выпускает мощный всплеск пламени, который сжигает врагов. 🔥Пламя сохраняется в области на короткое время.🔥Новая специальная способность: Поджигайте врагов с помощью новой способности Thermal Spike Major Ability, наказывая врагов, оказавшихся на пути огня.",
-"Complete any 6 Challenges from Week 6 of ": "Завершите 6 испытаний 6 недели ",
+"Emit a powerful blast of flames that incinerate enemies. Flames persist in the area for a short duration.": "🔥Выпускает мощный всплеск пламени, который сжигает врагов. 🔥Пламя сохраняется в области на короткое время.🔥Использование: Нажмите в направлении взгляда клавишу способности, чтобы поджечь врагов, оказавшихся на пути огня.",
+
+
+"Death Machine": "Машина смерти",
+"Deadly machine gun. High damage per shot and a large magazine capacity": "Смертоносный пулемёт.Высокий урон и большой боезапас",
+
 
 // Дополнительная способность
 "Minor Abilities": "Дополнительная способность",
 
 "Grappling Hook": "Крюк",
-"Grapple to surfaces to escape danger and reach new heights.": "Используйте крюк, чтобы цепляться за поверхности, избегать угроз и достигать новых высот.",
+"Grapple to surfaces to escape danger and reach new heights.": "Используйте крюк, чтобы цепляться за поверхности, избегать угроз и достигать новых высот.👉Улучшение экзотической способности Акробатика Acrobatic👉Плюс один заряд. Возвращение зарядов, потраченных в воздухе👈",
 
 "Portal Grenade": "Портальная граната",
 "A grenade that spawns creatures to fight for you. They last a short duration.": "Граната, которая призывает существ, сражающихся на вашей стороне. Существа живут недолго.",
@@ -348,17 +356,30 @@ const translations = {
 "Aether Blade": "Эфирный клинок",
 "Aether infused throwing knife that hunts down targets. Hit 5 with one toss to recover a portion of its charge.": "Метательный нож, напитанный эфиром, который преследует цели. Попадите в 5 целей одним броском, чтобы восстановить часть заряда.",
 
+"Psych Grenade": "Психограната",
+"Explodes on impact, releasing a lingering cloud of hallucinogenic gas that brainrots enemies": "Взрывается при столкновении с преградой, испуская облако галлюциногенного газа, который сводит врагов с ума",
+
 "In Endgame: Earn 30000 Power": "или наберите силу 30 000 в Финале",
 "In Endgame:": "или в Финале:",
 "Get 500 Critical Kills": "Убейте 500 врагов критическими попаданиями в голову",
+"Eliminate 30 Elite enemies": "Убейте 30 элитных противников",
 
+"Complete any 6 Challenges from Week 1 of ": "Завершите 6 испытаний 1 недели в ",
+"Complete any 6 Challenges from Week 2 of ": "Завершите 6 испытаний 2 недели в ",
+"Complete any 6 Challenges from Week 3 of ": "Завершите 6 испытаний 3 недели в ",
+"Complete any 6 Challenges from Week 4 of ": "Завершите 6 испытаний 4 недели в ",
+"Complete any 6 Challenges from Week 5 of ": "Завершите 6 испытаний 5 недели в ",
+"Complete any 6 Challenges from Week 6 of ": "Завершите 6 испытаний 6 недели в ",
+"Complete any 6 Challenges from Week 7 of ": "Завершите 6 испытаний 7 недели в ",
+"Complete any 6 Challenges from Week 8 of ": "Завершите 6 испытаний 8 недели в ",
+"Complete any 6 Challenges from Week 9 of ": "Завершите 6 испытаний 9 недели в ",
 
 // Ветвь навыков
 
 "Skill Tracks": "Ветвь навыков",
 // "Skill": "Навык",
-"Exotic (S1)": "Экзотические навыки (с1)",
-"Nightmare (S2R)": "Кошмарные навыки (с2п)",
+"Exotic (S1)": "Экзотические навыки 👉с1👈",
+"Nightmare (S2R)": "Кошмарные навыки 👉с2п👈",
 // Стрелок
 "Gunner": "Стрелок",
 "Master your weapons, reload faster, aim sharper and electrify enemies.": "👉Перезарядка оглушает противников шоком👈 Освойте своё оружие, перезаряжайтесь быстрее, цельтесь точнее и поражайте врагов электричеством.",
@@ -388,7 +409,7 @@ const translations = {
 "Health recovery starts sooner after you stop taking damage": "・ После прекращения получения урона восстановление здоровья начинается быстрее.",
 
 "Last Stand Fighter": "Боец чести",
-"Survive Longer in Last Stand": "👉Больше патронов в пистолете👈・ Выживайте дольше в последнем рывке.",
+"Survive Longer in Last Stand": "👉Больше патронов в пистолете в нокнутом состоянии👈・ Выживайте дольше в последнем рывке.",
 "Upgrades Last Stand Pistol and provides more Ammo": "・ Улучшения пистолета на последнем рывке и большее количество боеприпасов.",
 
 "Agile Handling": "Отличная эргономика",
@@ -402,7 +423,7 @@ const translations = {
 "Revives replenish all health and temporarily boost movement speeds": "・ Реанимации восстанавливают всё здоровье и временно увеличивают скорость перемещения.",
 
 "Off The Floor": "Последние силы",
-"Revive yourself when you get a Kill in Last Stand (cooldown between uses)": "・ Самореанимация при убийстве в последнем рывке (требуется время на восстановление между использованиями).",
+"Revive yourself when you get a Kill in Last Stand (cooldown between uses)": "・ В нокнутом состоянии убиваешь кого-то с пистолета и восстанавливаешься. Самореанимация при убийстве в последнем рывке (требуется время на восстановление между использованиями).",
 
 "Daredevil": "Сорвиголова",
 "Fly, slide and dive into chaos, your movement is a weapon and the ground hits back.": "👉Взрыв при падении/скольжении👈 Летайте, скользите и падайте в хаос, ваше движение - это оружие, а земля отвечает ударом.",
@@ -437,7 +458,7 @@ const translations = {
 "Improved Sprint and Tac Sprint speeds while reloading": "・ Повышение скорости обычного и тактического бега во время перезарядки",
 
 "Hit And Run": "Опасная езда",
-"Base I: Taking melee hits can spawn a Black Hole that damages and displaces enemies": "・ Убийства снаряжением временно повышают скорость перемещения.",
+"Equipment Kills temporarily boost movement speed": "・ Убийства снаряжением временно повышают скорость перемещения.",
 
 "Recharger": "Перезарядка",
 "Recharge Abilities and Equipment faster": "・ Ускоренное восстановление снаряжение и способностей.",
@@ -565,6 +586,31 @@ const translations = {
 "Steelhand": "Стальная рука",
 "Picked-up armor auto-equips immediately": "・ Подобранная броня автоматически экипируется.",
 
+// Страж👉с4 перезагрузка👈
+"Guardian (S4R)": "Страж👉с4п👈",
+"Stand your ground and turn pressure into power": "Не отступайте ни на шаг и обращайте давление в силу",
+"The Guardian skill track makes you a frontline anchor, shrugging off damage, punishing attackers, and sustaining both yourself and your squad": "Ветвь навыков Страж позволит вам стать настоящим бастионом на передовой: с лёгкостью выдерживая урон, отбрасывая нападающих врагов и поддерживая отряд",
+"With stronger defenses, better resource drops, and proximity-based revives, Guardians do not just survive the fight, they control it": "Благодаря усиленной защите, более ценным ресурсам и возможности реанимировать союзников, находящихся рядом, Стражи не просто выживают в битвах - они ими управляют",
+
+"Payback": "Расплата",
+"Enemies that damage the player receive damage themselves": "Противники, которые наносят урон игроку, сами получают урон",
+
+"Battle Cache": "Схрон",
+"Increased chance to spawn ammo/armor pack when killing an enemy": "Повышает шанс появления боеприпасов/брони при убийстве врага",
+
+"Power Tap": "Подзарядка",
+"Picking up ammo/armor packs now also grants equipment recharge": "При подборе боеприпасов/бронепластин также происходит перезарядка снаряжения",
+
+"Fortified": "Фортификация",
+"Reduce incoming damage for every currently equipped plate. As you have more plates, the damage reduction is bigger": "Снижает получаемый урон за каждую установленную пластину. Чем больше пластин, тем выше снижение урона",
+
+"Iron Grip": "Железная схватка",
+"Reduce Hip Fire bullet spread and reduce flinch when getting hit": "Уменьшает разброс пуль при стрельбе от бедра и снижает рывок при получении урона",
+
+"Rescue Pulse": "Спасательный импульс",
+"If allies are downed, the player can revive them just by being near them": "Чтобы реанимировать тяжелораненого союзника, игроку достаточно встать рядом с ним",
+"For the player owner downed, any player can revive them just by being near": "Если обладатель этого навыка сам получит тяжёлое ранение, любой другой игрок сможет его реанимировать, встав рядом с ним",
+// "--Base I: Taking melee hits can spawn a Black Hole that damages and displaces enemies": "・ ",
 
 // ☢️Экзотические навыки👉S1👈Exotic Skill
 "Mega Punch": "Мегаудар",
@@ -587,11 +633,9 @@ const translations = {
 "Upgrade: Further increase of chances to trigger Mortar Rounds.": "・ Улучшение: Увеличение шансов срабатывания миномётных снарядов.",
 "Final Upgrade: Greater increase of chances to trigger Mortar Rounds": "・ Итоговое улучшение: Значительное увеличение шансов срабатывания миномётных снарядов.",
 
-
 "Enemies damaged or affected by Equipment have a chance to trigger a Frost Cloud that slows enemies": "☢️ Противники, получившие урон или подвергшиеся воздействию снаряжения, имеют шанс вызвать морозное облако, которое замедлит врагов.",
 "Upgrade: Also damages enemies": "・ Улучшение: Также наносит урон врагам.",
 "Final Upgrade: Affected enemies will transfer frost to nearby enemies": "・ Итоговое улучшение: Подвергшиеся воздействию враги перенесут морозный эффект на других противников поблизости.","Frost Cloud": "Морозное облако",
-
 
 "On fatal damage become temporarily invulnerable instead of dying": "🔴Воскрешение👉Самовостанавливающая самореанимация каждую минуту👈☢️ При получении смертельного урона вы становитесь временно неуязвимым вместо того, чтобы умереть.",
 "Once per match": "Доступно 1 раз за бой.",
@@ -609,15 +653,22 @@ const translations = {
 "Upgrade: Also triggered by ranged attacks": "・ Улучшение: Также срабатывает при атаке на расстоянии.",
 "Final Upgrade: Also triggers on enemies in an area around the affected enemy": "・ Итоговое улучшение: Также срабатывает на врагов вблизи поражённого противника.",
 
-"Conductive Shot": "Электроудар👉S3 Reloaded👈",
+"Conductive Shot": "Электроудар",
 "When firing any weapon sometimes a taser is fired that can get glued to the enemy and inflict tics of damage for a limited time": "☢️ Выстрел из оружия также может выпустить снаряд-тазер, который может прикрепляться к врагу и наносить ему периодический урон в течении ограниченного времени.",
 "Upgrade: Increase the amount of tasers fired per activation": "・ Улучшение: Увеличивает количество тазеров за выстрел.",
 "Final Upgrade: Longer duration and now tasers can get glued to all enemies": "・ Итоговое улучшение: Увеличенное время действия. Тазер также теперь может быть прикреплён ко всем врагам.",
 
-// ☢️Кошмарные навыки☢️Nightmare Skill☢
+"Fission": "Распад",
+"Killing an elite has the chance to trigger a large explosion, dealing massive damage to nearby enemies": "☢️ Убийства элитного противника млжет вызвать мощный взрыв, наносящий большой урон врагам поблизости.",
+"Upgrade: Increased damage and radius of the explosion": "・ Улучшение: Увеличивает урон и радиус взрыва.",
+"Final Upgrade: The explosion spawn friendly Toxic Fears that fight for you": "・ Итоговое улучшение: Взрыв вызывает ядовитых страхов, которые сражаются на вашей стороне.",
 
-"Powerful skills acquired by defeating a Glitch Boss": "Мощные навыки, полученные за победу над боссом сбоя.",
-"Can equip and upgrade 1 Nightmare Skill": "Можно выбрать и улучшить 1 кошмарный навык",
+// ☢️Кошмарные навыки☢️Nightmare Skill☢
+"Powerful skills acquired by completing World Events": "Мощные навыки, приобретаемые за прохождение мировых событий и полученные за победу над боссом сбоя",
+"You can equip and upgrade these skills": "Вы можете экипировать и улучшать эти навыки",
+"Powerful skills acquired by defeating a Glitch Boss": "Мощные навыки, полученные за победу над боссом сбоя",
+"Can equip and upgrade 1 Nightmare Skill": "Можно выбрать и улучшить 1 кошмарный навык при нулевом и 1 престиже, и 2 кошмарных навыка при Престиже 2 и 3",
+
 "Nova Strike": "Удар Нова",
 
 "Melee strikes have a chance to generate an electrical area that damages enemies.": "☢️ Удары в ближнем бою могут создать электрическое поле, наносящее урон противникам.",
@@ -650,81 +701,127 @@ const translations = {
 "Doing multiple kills in a short period of time spawns a Drone that follows you while shooting nearby enemies.": "☢️ Несколько убийств за короткий промежуток времени вызывают появление дрона, который следует за вами, стреляя в ближайших врагов.",
 "Upgrade: Increases the rate of fire and duration of the Drone.": "・ Улучшение: Увеличивает скорострельность и длительность работы дрона.",
 "Final Upgrade: Drone shots have a chance to trigger Shrapnel effect.": "・ Итоговое улучшение: Выстрелы дрона с определённой вероятностью вызывают эффект шрапнели.",
+
+"Sleeper Agent": "Спящий агент",
+"Chance on shot to turn base enemies into allies that rush nearby hostiles and detonate on impact": "☢️ Шанс при попадании обратить обычных противников в союзников, заставив их бросаться на ближайших врагов и взрываться при столкновении",
+"Upgrade: Enemies are attracted toward the sleeper agent": "・ Улучшение: Противников притягивает к спящему агенту",
+"Final Upgrade: Agent drops cluster submunitions expanding the damage radius": "・ Итоговое улучшение: Агент разбрасывает взрывные снаряды, увеличивающие радиус поражения",
+
 "Nightmare Skill": "Кошмарные навыки",
 
 // Экзотическое оружие
+
+"Among the weapons found across Avalon, some will appear as Exotic Weapons which, as the name suggests, are weapons at ": "Среди оружия, найденного по всему Авалону, некоторое из них будут представлено как экзотическое оружие, которое, как следует из названия, относится к категории ",
+"The Exotic Weapons deal 3.5x damage (originally 2.5x before ": "Экзотическое оружие наносит в 3,5 раза больше урона (ранее было в 2,5 раза ",
+" compared to default weapons": " по сравнению с обычным оружием",
+"Exotic Weapons are uniquely named and most of them come with a list of predefined attachments": "Экзотическое оружие имеет уникальное имя, и большинство из них поставляется со списком предопределенных насадок",
+"Exotic Weapons can be obtained from Exotic Weapon case dropped after completing Activities or Assignments in the highest Zones, as well as eliminating Elites enemies": "Экзотическое оружие можно получить из ящика с экзотическим оружием, который выпадает после выполнения заданий в самых высоких зонах, а также при уничтожении элитных врагов",
+"Completing the Toxin Source activity will always guarantee an Exotic Weapon case to drop": "Выполнение задания с источником токсина всегда гарантирует выпадение футляра с экзотическим оружием",
+"there are 20 uniquely named Exotic Weapons:": "существует 20 экзотических видов оружия с уникальными названиями:",
+"As of ": "Начиная с  ",
+"": "",
+
+
+"Effects and Bonus": "Эффекты и бонусы",
+"Exotic Weapons feature one (sometimes two) Exotic Effect and one Utility Bonus, improving the damage and effectiveness of the weapon": "Экзотическое оружие включает один (иногда два) экзотических эффекта и один бонус полезности, что повышает урон и эффективность оружия",
+
+"Exotic Effects work similarly to the Ammo Mods from the Zombies mode": "Экзотические эффекты работают аналогично модификациям боеприпасов из Зомби режима",
+"Every Exotic Weapon also has its own affinity with a specific Exotic Effect which can potentially grant the weapon with an additional Affinity Effect which will replace the Utility Bonus": "Каждое экзотическое оружие также имеет свою связь с конкретным экзотическим эффектом, который потенциально может дать оружию дополнительный эффект аффинити, заменяющий бонус полезности",
+"Each Exotic Effect also applies a unique camouflage to the Exotic Weapon": "Каждый экзотический эффект также накладывает уникальный камуфляж на экзотическое оружие",
+"The following are all the Affinity Effects that can be encountered when picking up an Exotic Weapon": "Ниже приведены все бонусы к экзотическому оружию, которые можно получить, взяв в руки экзотическое оружие",
+
 // "Weapon": "Оружие",
-"Torrent": "Поток🩸Torrent",
+"Torrent": "Поток",
 "Full-auto assault rifle equipped to discharge a relentless stream of gunfire.": "💎Автоматическая штурмовая винтовка, способная вести непрерывный огонь.🩸Прицел BaMx зеркальный EAM🩸Фотонные патроны🩸Перезарядка при смене💎Нейроразрушающие патроны🩸Морозные патроны🩸Пальба🩸",
 "Affinity for Graviton Rounds": "Особенно эффективна с гравитонными патронами",
 
-"Flashburst": "Световой залп🩸Flashburst",
+"Flashburst": "Световой залп",
 "Burst marksman rifle specialized for raining sustained and lethal suppression.": "💎Пехотная винтовка, стреляющая очередями, оптимизированная для длительного и смертоносного подавления сил противника.💎Бело-голубой камо💎Морозные патроны💎Взрывные пули💎🩸Гравитонные патроны🩸Пальба🩸",
 "Affinity for Frost Rounds": "Совместим с морозными патронами",
 
-"Redline": "Красная черта🩸Redline",
+"Redline": "Красная черта",
 "Full-auto light machine gun optimized to unleash an onslaught of destruction": "💎Автоматический ручной пулемёт, оптимизированный для массового уничтожения.🩸Зажигательные патроны🩸Боеготовность🩸Гравитонные патроны🩸Экскалация🩸Морозные патроны🩸Отсутствие отдачи🩸",
 "Affinity for Mortar Rounds": "Особенно эффективен с миномётными снарядами",
 
-"Ghostmind": "Призрачный разум🩸Ghostmind",
+"Ghostmind": "Призрачный разум",
 "Bolt action sniper rifle augmented for decisive and destructive strikes": "💎Снайперская винтовка с продольно-скользящим затвором, адаптированная для решительных и мощных ударов.🩸Морозные патроны🩸Нулевой расход🩸",
 "Affinity for Neuro-Disruption Rounds": "Особенно эффективна с нейроразрушающими патронами",
 
-"Backdrive": "Обратный ход🩸Backdrive 👉s1👈",
-"Full-auto submachine gun refined for both aggressive and precise assault.": "💎Автоматический пистолет-пулемёт, оптимизированный для точных и агрессивных штурмовых атак.🩸Миномётные снаряды🩸Дальний выстрел🩸",
+"Backdrive": "Обратный ход",
+"Full-auto submachine gun refined for both aggressive and precise assault.": "👉с1👈💎Автоматический пистолет-пулемёт, оптимизированный для точных и агрессивных штурмовых атак.🩸Миномётные снаряды🩸Дальний выстрел🩸",
 "Affinity for Shock Rounds": "Особенно эффективен с шоковыми патронами",
 
-"Overcharge": "Перезаряд🩸Overcharge",
+"Overcharge": "Перезаряд",
 "Pump shotgun enhanced to push the perceived limits of CQB lethality.": "💎Помповый дробовик, позволяющий по-новому взглянуть на идею ближнего боя.💎Красно-оранжевый камо💎Фотонные патроны💎От бедра💎🩸Гравитонные патроны🩸Перезарядка в ближнем бою🩸",
 "Affinity for Incendiary Rounds": "Предрасположенность к зажигательным патронам",
 
-"Killswitch": "Убийственный выключатель🩸Killswitch",
+"Killswitch": "Убийственный выключатель",
 "Full-auto assault rifle modified for raw power and aggression.": "💎Автоматическая штурмовая винтовка, оптимизированная для агрессивного штурма.🩸Шоковые патроны🩸Боеготовность💎Розовое камо👉Гравитонные патроны👉Пальба🩸",
 "Affinity for Shrapnel Rounds": "Совместима со шрапнельными патронами",
 
-"Swarmforge": "Кузница роя🩸Swarmforge",
+"Swarmforge": "Кузница роя",
 "Full-auto submachine gun adapted for ultra-dynamic and ruthless CQC.": "💎Автоматический пистолет-пулемёт, адаптированный для динамичного и безжалостного ближнего боя.🩸Фотонные патроны. Каждая пуля даёт шанс превратить здоровье обычного или особого противника в целебный знак.🩸Крупная дичь.Фотонные патроны могут действовать на элитных противников🩸Двойное действие.Временно ускорит восстановление здоровья🩸💎Зелёный камо🩸Нейроразрушающие патроны🩸От бедра💎",
 "Affinity for Photon Rounds": "Особенно эффективен с фотонными патронами",
 
-"Criticality": "Критичность🩸Criticality",
+"Criticality": "Критичность",
 "Charge launcher enhanced for field efficiency.": "💎Пусковая установка, адаптированная к полевым условиям.🩸💎Голубой камо💎Морозные патроны💎Нулевой расход💎",
 "Affinity for Mortar Rounds": "Особенно эффективен с миномётными снарядами",
 
-"Hypersurge": "Гипервал🩸Hypersurge",
+"Hypersurge": "Гипервал",
 "Full-auto light machine gun augmented for precise or reckless lethality.": "💎Смертоносный и лёгкий автоматический ручной пулемёт, подходящий для точного или шквального огня.💎Красно-жёлтое камо👉Зажигательные патроны👉Пальба🩸",
 "Affinity for Shock Rounds": "Особенно эффективен с шоковыми патронами",
 
-"Malspike": "Злобный шип💎Malspike",
+"Malspike": "Злобный шип",
 "Burst pistol modified for maximum, small-profile firepower.": "💎Пистолет для ведения плотного огня очередями.💎Голубое камо👉Шоковые патроны👉Парные Velox 5.7👉В карантинной зоне 4 уровня нашёл🩸",
 "Affinity for Photon Rounds": "Особенно эффективен с фотонными патронами",
 
-"Neurowall": "Нейростена🩸Neurowall",
+"Neurowall": "Нейростена",
 "Double-action rifle enhanced for deadly precision. ": "💎Самовзводная винтовка повышенной точности.🩸Фотонные патроны🩸Отсутствие отдачи🩸💎💎Шрапнельные патроны💎Сверхлёгкость",
 "Affinity for Neuro-Disruption Rounds": "Совместима с нейроразрушающими патронами.",
 
-"Zeotrope": "Зеотроп🩸Zeotrope",
+"Zeotrope": "Зеотроп",
 "Dual-barrel shotgun modified for aggressive pursuit and execution.": "💎Двухствольный дробовик, модифицированный для агрессивного преследования и уничтожения.🩸Миномётные патроны🩸Убивай и беги🩸",
 "Affinity for Frost Rounds": "Совместим с морозными патронами",
 
-"Barrage": "Шквал🩸Barrage️",
+"Barrage": "Шквал",
 "Full-auto SMG augmented for unrelenting assault. ": "💎Автоматический пистолет-пулемёт, усиленный для неумолимой атаки.🩸Нейроразрушающие патроны🩸Сверхлёгкость🩸",
 "Affinity for Shrapnel Rounds": "Совместима со шрапнельными патронами",
 
-"Collateral": "Побочный ущерб🩸Collateral",
+"Collateral": "Побочный ущерб",
 "Full-auto assault rifle enhanced with ricochet rounds for widespread lethality. ": "💎Автоматическая штурмовая винтовка, оснащённая рикошетными патронами для большей летальности.💎Автоматическая штурмовая винтовка, усиленная рикошетными патронами для широкого поражения целей.🩸",
 "Affinity for Incendiary Rounds": "Предрасположенность к зажигательным патронам",
 
-"Continuum": "Непрерывность🩸Continuum",
+"Continuum": "Непрерывность",
 "Bolt-action sniper rifle modified for aggression and potency.": "💎Снайперская винтовка с продольно-скользящим затвором, оптимизированная для агрессивного боя.🩸Миномётные патроны🩸Нулевой расход🩸",
 "Affinity for Graviton Rounds": "Особенно эффективна с гравитонными патронами",
 
-"Pulsebreach": "Разрыв пульса🩸Pulsebreach",
+"Pulsebreach": "Разрыв пульса",
 "Burst Marksman Rifle modified for maximum destructive power.": "💎Пехотная винтовка с очередями, модифицированная для максимальной разрушительной силы.🩸Гравитонные патроны🩸Длинная очередь🩸",
 "Affinity for Shrapnel Rounds": "Совместима со шрапнельными патронами",
 
-"Reboot": "Reboot🩸Перезагрузка",
+"Reboot": "Перезагрузка",
 "Semi-auto pistol augmented for versatility and power.": "💎Полуавтоматический пистолет, усовершенствованный для универсальности и мощности.🩸",
 "Affinity for Shock Rounds": "Совместим с шоковыми патронами",
+
+"Kilonova": "Кило-Звезда",
+"Full-auto submachine gun enhanced for mobility and close-quarters power.": "💎Автоматический пистолет-пулемёт с повышенной подвижностью и убойной мощностью в боях на ближней дистанции.🩸",
+
+"Infraradiance": "Инфра-излучение",
+"Semi-auto shotgun altered for non-stop assault and aggression.": "💎Полуавтоматический дробовик,модифицированный для выполнения штурмовых задач.🩸",
+
+"Cryoshear": "🔪Криосрез",
+"Melee weapon. High damage, moderate range, and moderate attack speed": "💎Оружие ближнего боя, пропитанное ледяной силой + полезные бонус Парирование👉 Уменьшение получаемого урона при подготовке тяжёлой атаки ближнего боя. ",
+
+"Defrag": "Дефрагментация",
+"Full-auto assault rifle. Low recoil for excellent accuracy with moderate damage and handling": "Автоматическая штурмовая винтовка с исключительными показателями точности. Низкая отдача обеспечивает превосходную точность при умеренных повреждениях и удобном обращении",
+"": "",
+
+
+"": "",
+"": "",
+
+"": "",
+"": "",
 
 //💎💎💎Экзотический верстак  модификатор💎💎💎
 // 1 этап Экзотическая редкость 3.5 Кратность урона.
@@ -733,6 +830,19 @@ const translations = {
 // 💎Патроны🔴FULL UTILITY BONUS AND EXOTIC EFFECTS LIST
 // Exotic Effects (Ammo Mods) Can be applied to every weapon type.
 // "Exotic Effects (Ammo Mods) Can be applied to every weapon type.": "",
+
+"The Exotic Fabricator will spawn after the Nightmare Strike Boss is defeated and allow the participating players to upgrade any of their weapons to the Exotic rarity, significantly increasing their damage": "        ",
+"The Exotic Fabricator became available with Season 02 Reloaded and the introduction of the Nightmare Zones": "Экзотический фабрикатор стал доступен с выходом 2 сезона перезагрузки и с появлением кошмарных зон",
+"The Exotic Fabricator will spawn after the Nightmare Strike Boss is defeated and allow the participating players to upgrade any of their weapons to the ": "Экзотический фабрикатор появится после победы над Боссом Удара Гильдии и позволит участникам улучшить любое своё оружие до ",
+
+" rarity, significantly increasing their damage": " редкости, значительно увеличивая их урон",
+"If a weapon is already at the Exotic rarity, the players can first add a Utility Bonus, and an Exotic Effect in a second time": "Если оружие уже на экзотической редкости, игроки могут сначала добавить бонус полезности, а во второй раз — экзотический эффект",
+"Afterwards, and for every future interaction with the Exotic Fabricator with that same weapon, the players can re-roll either the Effect or Bonus": "После этого, и при каждом будущем взаимодействии с экзотическим фабрикатором с этим же оружием, игроки могут изменить либо эффект патронов, либо бонус",
+"With the release of Operation Poison Pill, the associated Nightmare Zone will have its boss": "С выходом операции Ядовитая пилюля связанная с ней кошмарная зона получит своего босса",
+"repeatedly respawn after being defeated allowing players to use the Exotic Fabricator several times within a single match": "многократно возрождается (2 ахах) после поражения, что позволяет игрокам использовать экзотический фабрикатором несколько раз в течение одного матча",
+
+
+
 "Neuro-Disruption Rounds": "🧟Нейроразрушающие патроны🧟",
 "Each bullet has a chance to temporarily turn a Normal or Special Enemy into an ally.": "🧟Мозгоразложитель🧟・ Каждая пуля даёт шанс временно превратить обычного или особого противника в союзника.",
 
@@ -749,18 +859,17 @@ const translations = {
 "Each bullet has a chance to apply a burn effect on Normal and Special Enemies, dealing damage over time.": "🔥・ Каждая пуля даёт шанс поджечь обычного или особого противника, нанося переодический урон",
 
 "Graviton Rounds": "🌀Гравитонные патроны🌀",
-"Each bullet has a chance to spawn a black hole on a Normal or Special Enemy, lethally displacing nearby enemies": "🌀・ Каждая пуля даёт шанс создать на месте обычного или особого противника чёрную дыру,которая засасывает и убивает соседних врагов",
+"Each bullet has a chance to spawn a black hole on a Normal or Special Enemy, lethally displacing nearby enemies": "🌀・ Каждая пуля даёт шанс создать на месте обычного или особого противника чёрную дыру,которая засасывает и убивает соседних врагов🌀・ Розовый комуфляж типо Cherry Fizz",
 
 "Photon Rounds": "❤️‍🩹Фотонные патроны❤️‍🩹",
-"Each bullet has a chance to transform a Normal or Special Enemy health into a Healing Glyph.": "❤️‍🩹Целебный знак❤️‍🩹・ Каждая пуля даёт шанс превратить здоровье обычного или особого противника в целебный знак",
-
+"Each bullet has a chance to transform a Normal or Special Enemy health into a Healing Glyph": "❤️‍🩹Целебный знак❤️‍🩹・ Каждая пуля даёт шанс превратить здоровье обычного или особого противника в целебный знак",
+// Each bullet has a chance to transform a Normal or Особое оружие Enemy health into a Healing Glyph.
 "Shrapnel Rounds": "💥Шрапнельные патроны💥",
 "Each bullet that hits a Normal or Special Enemy has a chance to create an explosion that destroys armor": "💥Крушилка💥Осколочные патроны💥・ Каждая пуля, попавшая в обычного или особого противника, даёт шанс,вызвать взрыв, уничтожающий броню",
 
 // Affinity Effect
 "Big Game": "Большая игра",
 
-"Affinity Effect": "Бонус к экзотическому оружию",
 "can turn elite enemies": "действуют и на элитных врагов",
 "Light Mend can activate on elite enemies": "❤️Фотонные патроны❤️действуют и на элитных врагов",
 "can slow elite enemies": "действуют и на элитных врагов",
@@ -789,14 +898,17 @@ const translations = {
 // Utility Bonus
 "Utility Bonuses offer additional upgrades to improve the stats and firepower of the different weapons": "Полезные бонусы  предлагают дополнительные улучшения для улучшения характеристик и огневой мощи различных видов оружия",
 "Some Utility Bonuses are exclusive to specific weapons or weapon classes": "Некоторые бонусы эксклюзивны для конкретного оружия или классов оружия",
-"Utility Bonus": "Полезные бонусы",
+
 "Availability": "Применяется",
 
 "Akimbo Velox 5.7": "Парные Velox 5.7 ",
 "Dual wield weapon": "👉Только экзотическое👈 Двойное оружие",
 
-"Ammo Recharger🔴": "",
-"Weapon ammo is refilled while stowed🔴": "",
+"Ammo Drain": "Истощение боеприпасов",
+"Add ammo to magazine after a kill": "Добавляет боеприпасы в магазин после убийства",
+
+"Ammo Recharger": "Перезарядка припасов",
+"Weapon ammo is refilled while stowed": "Боеприпасы пополняются, когда оружие в убранном состоянии",
 
 "Combat Ready": "Боеготовность",
 "Massive improvement to ADS and Sprint to Fire speeds": "・ Радикальное повышение скорости прицеливания и изготовки после бега",
@@ -853,12 +965,17 @@ const translations = {
 "Slasher": "Рубака",
 "Faster melee attack speed": "・ Повышенная скорость ближнего боя",
 
+"Shotgunificator🔴": "",
+"Weapon fires now spread bullets🔴": "・ ",
+
 "Ultra-light": "Сверхлёгкость",
 "Player movement speed is not reduced while in ADS": "・ Скорость перемещения игрока не снижается в режиме прицеливания",
 
 "Zero Waste": "Нулевой расход",
 "Bullets fired have a 50% chance to not consume ammo": "・ Выпущенные пули с 50% вероятностью не расходуют боеприпасы",
 
+"🔴": "",
+"🔴": "・ ",
 
 
 "— In-game description": "— Внутриигровое описание",
@@ -866,9 +983,6 @@ const translations = {
 "Complete a ": "Завершите",
 
 "Black Hole": "Чёрная дыра",
-
-
-
 
 
 
@@ -885,9 +999,7 @@ const translations = {
 "Snipers": "Снайперские винтовки",
 "Pistols": "Пистолеты",
 "Launchers": "Гранатомёты",
-"Special Weapons": "Особое оружие",
-"Specials": "Особое оружие",
-"Special": "Особое оружие",
+
 "Melee Weapons": "🔪Рукопашное оружие",
 "Melee": "🔪Рукопашное оружие",
 "Other melee weapons": "Другое оружие ближнего боя",
@@ -920,7 +1032,6 @@ const translations = {
 
 
 
-
 "It was added as part of the": "Он был добавлен в рамках",
 " is a underbarrel ": " это подствольное ",
 " featured in": " используемое в",
@@ -936,13 +1047,9 @@ const translations = {
 "attachment": "прикрепление",
 "Statistics": "Статистика",
 
-"-All": "- Все",
-"- All": "- Все",
-" except": " кроме",
-"Affinity Effects": "Тип эффекта",
 "Description": "Описание",
 
-"Weapons in": "Оружие в",
+
 "Base Weapon": "Тип оружия",
 "Unlocked by Default": "Разблокировка по умолчанию",
 "Unlocked": "Разблокировка",
@@ -958,12 +1065,6 @@ const translations = {
 "Guild Strike": "👉Удар Гильдии👈",
 "Country": "Страна",
 "O.S.C.A.R": "О.С.К.А.Р",
-"Achievements/Call of Duty: Black Ops 7": "Достижения/Call of Duty: Black Ops 7",
-"Achievements/Trophies": "Достижения/трофеи",
-"Opening Transcript": "Вступительная транскрипция",
-"Exotic Weapons": "Экзотическое оружие",
-"Exotic Weapon": "Экзотическое оружие",
-"Exotic Effect": "Экзотический эффект",
 
 // Зоны
 "Zone I": "Зона I",
@@ -976,7 +1077,7 @@ const translations = {
 "Damage": "Урон",
 
 //"Exotic": "экзотическим",
-" weapon.": " оружием.",
+
 "Gallery": "Изображения",
 "Endgame Logo in": "Логотип режима Финал в",
 "Endgame Icon.": "Иконка режима Финал",
@@ -1124,15 +1225,14 @@ const translations = {
 "BlackCell Exclusive": "BlackCell Эксклюзив",
 "Chain of Command": "Цепочка командования🩸Chain of Command",
 "This is the list of Primary ": "Это список основного ",
-" Primary Weapons": " Основное оружие",
-"Weapons in...": "Оружие в...",
+
 "Perks in...": "Перки в...",
 "Killstreaks in...": "Серии убийств в...",
 "Scorestreaks in...": "Серии очков в...",
 "Strike Chains": "Серия ударов в...",
-"Weapons": "Оружие",
+
+
 "Single Player": "Сюжет",
-"Characters": "Персонажи",
 "Perks": "Перки",
 "Maps": "Карты",
 "Gametypes": "Тип игры",
@@ -1147,6 +1247,8 @@ const translations = {
 "Policies and Guidelines": "Политика",
 "Usergroups": "Группы пользователей",
 "Forums": "Форумы",
+"Multiplayer maps": "Карты сетевой игры",
+"Multiplayer map": "Карта сетевой игры",
 "Multiplayer": "Сетевая игра",
 "Games": "Игры",
 "Portable": "Мобильные игры",
@@ -1172,11 +1274,17 @@ const translations = {
 "Season Six": "сезон 6",
 "Reloaded": "Перезагрузка",
 "Campaign Levels of ": "Миссии компании в ",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
+// "Skill": "Навык",
+"Achievements/Call of Duty: Black Ops 7": "Достижения/Call of Duty: Black Ops 7",
+"Achievements/Trophies": "Достижения/трофеи",
+"Opening Transcript": "Вступительная транскрипция",
+
+
+"Utility Bonus": "Полезные бонусы",
+
+
+"Recent Wiki Activity": "Последняя активность",
+"Ammo Mods": "Модификация патронов",
 "": "",
 "": "",
 "": "",
@@ -1184,20 +1292,195 @@ const translations = {
 "": "",
 "": "",
 
+"Exposure": "Экспозиция",
+"Inside": "Внутри",
+"Distortion": "Искажение",
+"Escalation": "Эскалация",
+"Disruption": "Помеха",
+"Collapse": "Крах",
+"Fracture": "Разлом",
+"Quarantine": "Карантин",
+"Suppression": "Подавление",
+"Breakpoint": "Переломный момент",
+"Containment": "Сдерживание",
+"Missions": "Миссии",
+"playable": "играбельный",
+"voice only": "только голос",
+"mind-game": "голос в голове",
+"cutscene only": "только видеосцена",
+"Starting Loadout": "Стартовый комплект",
+"Found in Level": "Можно найти на уровне",
+"in Co-Op Campaign": "в Коорпоративной кампании",
+"Co-Op Campaign": "в Коорпоративной кампании",
+"Complete ": "Завершите ",
+"the Black Ops 7": "Black Ops 7",
+"Weapon Loadout": "Комплект оружия",
+"Plot": "Сюжет",
 
-"Endgame": "Финал",
-"Avalon": "Авалон",
+// Операторы
+"Characters in": "Персонажи из",
+"Characters": "Персонажи",
+"Operators": "Операторы",
+"Biography": "Биография",
+"Personalization": "Персонализация",
+"Operator Collection": "Коллекция операторов",
+"Vault Edition Bonus": "Бонус за  издание Vault Edition",
+
+"USS Barack Obama": "Авианосец Барак Обама",
+"United States of America": "США",
+"Chicago": "Чикаго",
+"Illinois": "штат Иллинойс",
+"Yemen": "Йемен",
+"Socotra": "Сокотра",
+
+"Civilian ": "Гражданский ",
+"(aged ": "(возраст ",
+"(age  ": "(возраст ",
+"non-canon": "неканон, выбор игрока",
+"Deceased": "Умер(ла)",
+
+// MWII 2022
+// Валерия Ганза
+"Valeria": "Валерия",
+"Dead Winter": "Мёртвая зима",
+"El Sin Nombre": "Эль Син Нобре",
+"Ocelopilli": "Оцелотль",
+"Jaguar Warrior Bundle": "Набор Воин-ягуар",
+"Out for Blood": "Жажда крови",
+"Socialite": "Высший свет",
+"Fashion Animal 2 Bundle": "Набор Модное животное 2",
+"The Queen": "Ферзь",
+
+"Dead Medallion": "Медальон смерти",
+"Fiᴎal Girl": "Последняя девчонка (Красная шапочка)",
+"Leyenda": "Легенда",
+"El Chupacabras Bundle": "Набор Эль Чупакабра",
+"Possessed Valeria": "Одержимая Валерия",
+"Roving Adventure": "Бродячее приключение",
+"Rupture": "Прорыв",
+
+"Arctic Ranger": "Арктический рейнджер",
+"Dark Voltage": "Тёмный вольтаж",
+"Kilowatt": "Киловатт",
+
+"    Tracer Pack Elementals: Iceflow Bundle": "",
+"": "",
+"": "",
+// Bo7 2025
+"JSOC": "ОКСО",
+"": "Трой Маршалл",
+
+"Chloe ": "Хлоя ",
+"Karma": "Карма",
+" Lynch": " Линч",
+"Firewall": "Файервол",
+"Defiant Thug": "Неукротимая бандитка",
+"Tech Guardian": "Техно-страж",
+"Orbital Recon": "Орбитальная разведка",
+"Eros": "Эрос",
+"Metal Braggart": "Железный хвастун",
+"Ataraxia": "Атараксия",
+"Tacitеus": "Военная корпорация Безмолвие",
+"Tacit": "Безмолвие",
+"June 6, 1994": "6 июня 1994",
+"Alive (age 41, as of 2035; canon)": "Жива (возраст 41, в 2035; канон)",
+"A tattoo on her neck, resembling 'karma' in Chinese": "Татуировка на шее, Карма по-китайски",
+"Black eye from ": "Синяк под глазом от ",
+
+
+"Specter One:": "Спектр-1",
+"Specter Two:": "Спектр-2",
+"Slade": "Слейд",
+" Razor": " Рэйзор",
+" Barrick": " Баррик",
+ " (formerly) ": "(прежде) ",
+"(former)": "(прежде)",
+
+// Зомби
+"Tank ": "Танк",
+"Dempsey": "Демпси",
+"Nikolai Belinski": "Николай Белинский",
+"Takeo Masaki": "Такео Масаки",
+"Edward Richtofen": "Эдвард Рихтгофен",
+"Maya Aguinaldo": "Майя Агинальдо",
+"Grigori Weaver": "Григорий Уивер",
+"Mackenzie Carver": "Маккензи Карвер",
+"Elizabeth Grey": "Элизабет Грей",
+
+// Коллаборации
+"Promotional	": "Промоматериалы",
+"Competitor (Male)": "Боец М",
+"Competitor (Female)": "Боец Ж",
+"The Replacer (Peter Stormare)": "Заместитель (Петер Стормаре) 27.8.1953",
+"The Replacer (Nikki Glaser)": "Новая заместительница (Никки Глейзер) 1.6.1984",
+"Lucy MacLean": "Люси МакЛин",
+"Thurgood Jenkins": "Уборщик наркоман из фильмя Непропеченный (1998) Дейв Шаппель ",
+"Valkyrie": "Валькирия",
+"Hunter Killer (Modern Warfare 4 preorder)": "Охотник - убийца (предзаказ)",
+"Nicolas Cage": "Николас Кейдж",
+
+"Aliases": "Прозвище",
+"Nationality": "Национальность",
+"Affiliations": "Организация",
+"Rank": "Ранг",
+"Gender": "Пол",
+"Female": "Женский",
+"Male": "Мужской",
+"Actress": "Озвучивание",
+"Status": "Статус",
+"Killed By": "Убит(а) от",
+"Birth": "Рождение",
+"Death": "Смерть",
+"Alive ": "Жив(а) ",
+"Height": "Рост",
+"Weight": "Вес",
+" kg": " кг",
+" m)": " м)",
+"Build": "Телосложение",
+"Slim": "Стройное",
+"Hair": "Волосы",
+"Blond": "Блонда",
+"Eyes": "Глаза",
+"Blue": "Голубые",
+"Equipment": "Оснащение",
+"Timeline": "Таймлайн",
+"Level": "Уровень",
+"Marks": "Приметы",
+"Base": "Базовый",
+"Epic": "Эпический",
+"Legendary": "Легендарный",
+"Ultra": "Ультра",
+"Rare": "Раритет",
+"Skins": "Скины",
+
+// "Endgame": "Финал",
+// "Avalon": "Авалон",
 "Objectives": "Активности",
-
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
+"'s": "",
+// "Ability": "Способность",
+"Special Weapons": "Особое оружие",
+"Special Weapon": "Особое оружие",
+// "Specials": "Особое оружие",
+// "Special": "Особое оружие",
+"Exotic Fabricator": "Экзотический фабрикатор",
+"Exotic Weapons": "Экзотическое оружие",
+"Exotic Weapon": "Экзотическое оружие",
+"Exotic Effects": "Экзотический эффект",
+"Exotic Effect": "Экзотический эффект",
+"Exotic rarity": "Экзотическая редкость",
+"Exotic": "Экзотическая (ой)",
+"Affinity Effects": "Тип эффекта",
+"Affinity Effect": "Бонус к экзотическому оружию",
+"Weapons in": "Оружие в",
+" Primary Weapons": " Основное оружие",
+"Weapons in...": "Оружие в...",
+"Weapons": "Оружие",
+" weapon.": " оружием.",
+"-All": "- Все",
+"- All": "- Все",
+" except": " кроме",
+" and ": " и ",
+" rarity": " редкости",
 "": "",
 "": "",
 "": "",
@@ -1236,6 +1519,7 @@ const translations = {
 "Ch. ": "гл. ",
 "Mini-Season ": "Мини-Сезон ",
 "Springfield Island": "Остров Спрингфилд",
+"Islands": "Острова",
 "Island": "Остров",
 "Battle Royale": "Королевская Битва",
 "Sprites": "Спрайты",
@@ -1243,40 +1527,254 @@ const translations = {
 "Lore": "Предыстория",
 " it!": " его!",
 "expanding": "расширив",
-"": "",
-"": "",
-
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
-"": "",
+"Extraction Sites": "Точки эвакуации",
+"short for ": "коротко от ",
+"Exfiltration": "Эксфильтрация",
+// "exfil": "эвакуация",
 
 
+
+"Sprite Chests": "Сундуки со спрайтами",
+"Локации с названием": "Локации с названиями",
+"Change Avatar": "Сменить аватар",
+"Change Wishlist Background": "Сменить фон",
+"Select your new background": "Выбрать новый фон",
+"Dashboard": "Моя страница",
+"Settings": "Настройки",
+"Subscriptions": "Подписки",
+"Contact": "Контакты",
+"About": "О сайте",
+"Privacy": "Приватность",
+"Terms": "Правила",
+"Verify you are human": "Потверди, что ты человек",
+"Create new account": "Создать новый аккаунт",
+"Notifications": "Уведомления",
+
+
+"Design a Sprite": "Дизайн спрайтов",
+"Shop": "Магазин",
+
+"My Wishlist": "Мой белый список",
+"My Locker": "Мои блокировки",
+"Leaks": "Сливы",
+"Most Used": "Последнее использованное",
+"Free Fortnite Cosmetics": "Бесплатная Fortnite косметика",
+"Cosmetic Stats": "Статистика косметики",
+"Free Cosmetics": "Бесплатная косметика",
+"Cosmetics": "Косметика",
+"Daily Jam Tracks": "Ежедневные джем треки",
+"Stats": "Статистика",
+"2025 Wrapped": "",
+"Pro ": "Про ",
+"XP Calculator": "Калькулятор XP",
+"Map Evolution": "Эволюция карт",
+"Map Rotation": "Ротация карт",
+"Map": "Карта",
+"Display Name": "Отображаемое имя",
+"Reload": "Перезарядка",
+"Blitz": "Блитц",
+"Current Rotation": "Текущая ротация",
+"Ends in": "Заканчивается через",
+"Ends": "Заканчивается",
+
+"0h ": "0 ч ",
+"1h ": "1 ч ",
+"2h ": "2 ч ",
+"3h ": "3 ч ",
+"4h ": "4 ч ",
+"5h ": "5 ч ",
+"6h ": "6 ч ",
+"7h ": "7 ч ",
+"8h ": "8 ч ",
+"9h ": "9 ч ",
+"10h ": "10 ч ",
+"11h ": "11 ч ",
+"12h ": "12 ч ",
+"13h ": "13 ч ",
+"14h ": "14 ч ",
+"15h ": "15 ч ",
+"16h ": "16 ч ",
+"17h ": "17 ч ",
+"18h ": "18 ч ",
+"19h ": "19 ч ",
+"20h ": "20 ч ",
+"21h ": "21 ч ",
+"22h ": "22 ч ",
+"23h ": "23 ч ",
+"24h ": "24 ч ",
+
+"0m": "0 мин",
+"1m": "1 мин",
+"2m": "2 мин",
+"3m": "3 мин",
+"4m": "4 мин",
+"5m": "5 мин",
+"6m": "6 мин",
+"7m": "7 мин",
+"8m": "8 мин",
+"9m": "9 мин",
+"10m": "10 мин",
+"11m": "11 мин",
+"12m": "12 мин",
+"13m": "13 мин",
+"14m": "14 мин",
+"15m": "15 мин",
+"16m": "16 мин",
+"17m": "17 мин",
+"18m": "18 мин",
+"19m": "19 мин",
+"20m": "20 мин",
+"21m": "21 мин",
+"22m": "22 мин",
+"23m": "23 мин",
+"24m": "24 мин",
+"25m": "25 мин",
+"26m": "26 мин",
+"27m": "27 мин",
+"28m": "28 мин",
+"29m": "29 мин",
+"30m": "30 мин",
+"31m": "31 мин",
+"32m": "32 мин",
+"33m": "33 мин",
+"34m": "34 мин",
+"35m": "35 мин",
+"36m": "36 мин",
+"37m": "37 мин",
+"38m": "38 мин",
+"39m": "39 мин",
+"40m": "40 мин",
+"41m": "41 мин",
+"42m": "42 мин",
+"43m": "43 мин",
+"44m": "44 мин",
+"45m": "45 мин",
+"46m": "46 мин",
+"47m": "47 мин",
+"48m": "48 мин",
+"49m": "49 мин",
+"50m": "50 мин",
+"51m": "51 мин",
+"52m": "52 мин",
+"53m": "53 мин",
+"54m": "54 мин",
+"55m": "55 мин",
+"56m": "56 мин",
+"57m": "57 мин",
+"58m": "58 мин",
+"59m": "59 мин",
+"60m": "60 мин",
+"June ": "Июнь ",
+"th, 2025": ", 2025",
+"th, 2026": ", 2026",
+
+
+"Quests": "Квесты",
+"John Wick Dog": "Собака Джон Уика",
+"Stealth Guardian": "Соберите стража",
+"Arms": "Руки",
+"Torso": "Торс",
+"Helmet": "Шлем",
+"The Battlewoods": "Боевуд",
+"The battlewoods": "Боевуд",
+"Port-a-Potty": "Портативный туалет",
+"Spawns": "Метки интереса",
+"Vaults": "Карточки и ключи",
+"gold outline = 100% spawn rate": "Золотой контур = 100% шанс появления",
+"Teleporters": "Телепортеры",
+"Спрятаться": "Спрятать",
+"Rare Chests": "Редкий сундук",
+"Vending Machines": "Торговые автомат",
+"Service Stations": "Автозаправочные станции",
+"Slurp Trucks": "Фургон возрождения",
+"Bushes": "Куст",
+"Job Boards": "Доски с работой",
+"Supply Drop": "Снижение запасов",
+"Treasure": "Сокровище",
+"TrailSmasher": "Внедорожник",
+"Whiplash": "Спортивный автомобиль",
+"Fishing Spots": "Рыболовные места",
+"Dumpsters": "Мусорные контейнеры",
+"Cash Registers": "Кассовые аппараты",
+
+
+
+
+
+
+
+
+
+
+"Water Sprite:": "Дух воды",
+"Earth Sprite": "Дух земли",
+"Fire Sprite": "Дух огня",
+"Air Sprite": "Air Sprite нет",
+"Fishy Sprite": "Рыбный дух карась",
+"Duck Sprite": "Утиный дух",
+"Demon Sprite": "Демонический дух",
+"Ghost Sprite": "Призрачный дух",
+"King Sprite": "Король-дух",
+"Striker Sprite": "Ударный дух",
+"Aura Sprite": "Дух ауры",
+"Punk Sprite": "Бунтарский дух ",
+"Dream Sprite": "Сонный дух",
+"Boss Sprite": "Дух босса",
+"Seven Sprite": "Seven Sprite неть",
+"Zero Point Sprite": "Дух эпицентра Нулевая точка",
+"Grim Sprite": "Grim Sprite нет",
+"Burnt Peanut": "Арахис",
+"Gold": "Золотой",
+"Gummy": "Мармеладный",
+"Galaxy": "Галактический",
+" Holofoil": "",
+" Gem": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"Locations": "Локации",
 // Не трогать конец
 "Cutscenes": "Видеосцены"
 };
@@ -1300,7 +1798,7 @@ const translations = {
         }
     }
 
-    // Обход всех текстовых узлов
+// Обход всех текстовых узлов
     function walkAndTranslate(root) {
         const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
         let node;
@@ -1309,11 +1807,11 @@ const translations = {
         }
     }
 
-    // Запуск перевода
+// Запуск перевода
     function startTranslation() {
         walkAndTranslate(document.body);
 
-        // Наблюдатель за динамическим контентом (Fandom часто подгружает)
+ // Наблюдатель за динамическим контентом (Fandom часто подгружает)
         const observer = new MutationObserver((mutations) => {
             for (let mutation of mutations) {
                 if (mutation.addedNodes.length) {
@@ -1329,7 +1827,7 @@ const translations = {
         observer.observe(document.body, { childList: true, subtree: true });
     }
 
-    // Запуск после загрузки страницы
+// Запуск после загрузки страницы
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', startTranslation);
     } else {
