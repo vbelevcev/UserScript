@@ -2,8 +2,8 @@
 // @icon https://favicon.yandex.ru/favicon/callofduty.fandom.com
 // @name         👉CoD WikiBO7 Endgame👈☭🇷🇺🩸Русский перевод
 // @namespace    https://callofduty.fandom.com/wiki/Endgame_(Black_Ops_7)
-// @version      2.8.2026
-// @description  Русская локализация для руководства с сайта CoD Wiki Endgame Black Ops 7 Endgame.🩸Постепенно буду добавлять, и то что неперевено.
+// @version      9.8.2026
+// @description  Русская локализация для режима Финала с сайта CoD Wiki Endgame Black Ops 7 Endgame.🩸Постепенно буду дополнять что неперевено.
 // @author       vbelevcev
 // @match        https://callofduty.fandom.com/wiki/*
 // @match        *://*.fandom.com/*
@@ -295,69 +295,174 @@ const translations = {
 "Major Abilities": "Главная способность",
 "Crash Cart": "Реаниматор",
 "Instantly revive downed squadmates within range, and provide temporary invulnerability for a short time. Can be used to self-revive when downed.": "Мгновенно реанимирует тяжело раненных союзников в пределах досегаемости и обеспечивает временную неуязвимость на короткое время. Можно использовать для самореанимации при тяжёлом ранении",
+"Full Restock": "Максимальное пополнение",
+"Restores ammo, armor, и equipment": "Восстановление боеприпасов, брони и снаряжения",
+"Jumbo Battery": "Супербатарея",
+"Invulnerability lasts longer. Revive non-squad allies": "Неуязвимость длиться дольше.Вы можете реанимировать союзников, не входящих в отряд",
 
 "Active Camo": "Активный камуфляж",
 "Become nearly invisible for a short duration. Gunfire temporarily reveals your temporarily.": "На короткое время вы становитесь почти невидимыым. Стрельба временно раскрывает вас.",
+"Extra Time": "",
+"Melee kills increase camo duration": "",
+"Stealth Fire": "Скрытная стрельба",
+"Stay invisible when firing your weapon": "Невидимость при стрельба из оружия",
 
 "Ballistic Shell": "Баллистический панцирь",
 "Deploy an energy shield that blocks incoming enemy fire.": "Разверните энергетический щит,который блокирует огонь противника.",
+"Shell Revive": "",
+"Downed squadmates who enter the Shell are revived": "",
+"Stun Shell": "",
+"Melee attacks on the Shell can stun the attacker": "",
 
 "Hand Cannon": "Крупнокалиберный пистолет",
 "Powerful high damage handgun. Accurate at range.": "Мощный пистолет с высоким уроном. Точен на дальних дистанциях",
+"Blast Stun": "",
+"Bullets can trigger an explosion that stuns target": "",
+"High Capacity": "Высокая вместимость",
+"Increased ammo count": "Увеличенный боезапас",
 
 "Vision Pulse": "Видеоимпульс",
 "Send out a pulse which visually tags enemies through walls for your squad. Tagged enemies take increased damage.": "Отправьте видеоимпульс, который визуально отмечает врагов сквозь стены для вашего отряда. Отмеченные враги получают увеличенный урон.",
+"EMP Kill": "",
+"Killing pinged enemies generates an EMP effect": "",
+"Marked for Death": "",
+"Pinged targets take increased damage": "",
+
 
 "War Machine": "Машина войны",
 "Powerful single shot grenade launcher. Large explosion radius.": "Мощный однозарядный гранатомёт. Большой радиус поражения.",
+"Fast Charge": "",
+"Reduced charge time": "",
+"High Capacity": "Высокая вместимость",
+"Increased ammo count": "Увеличенный боезапас",
+
 
 "Shadow Break": "Теневой прорыв",
 "Create an energy warping field that teleports and damages enemies.": "Создайте искажающее энергию поле, которое телепортирует и наносит урон врагам.",
+"Gravity Well": "",
+"Shadow Break pulls enemies into its center": "",
+"Sky Drop": "",
+"Entering Shadow Break will teleport you into the sky": "",
 
 "Drone Pod": "Дрон-станция",
 "Deployable device that launches aerial drones. Drones seek out enemies and explode.": "Размещаемое устройство, запускающее воздушные дроны,которые ищут врагов и взрываются.",
+"First Strike": "",
+"Drones have a shrapnel effect": "",
+"Stun Protocol": "",
+"Drones have a chance to stun enemies": "",
 
 "Sentinel Protocol": "Протокол Часовой",
 "Call in an armed Guild robot to fight enemies and assist you and your team. Can revive downed teammates when downed and do a small area of effect attack when swarmed.": "Вызовите вооружённого робота Гильдии,чтобы сражаться с врагами и помогать вам и вашей команде. Может реанимировать тяжелораненных союзников и наносить небольшой урон по области при скоплении врагов.",
+"Shock Rounds": "",
+"Guild Bot's weapon has the Deadwire mod": "",
+"Target Relay": "",
+"Guild Bot targets enemies you ping. Improved accuracy": "",
 
 "Thermal Spike": "🔥Тепловой всплеск🔥",
 "Emit a powerful blast of flames that incinerate enemies. Flames persist in the area for a short duration.": "🔥Выпускает мощный всплеск пламени, который сжигает врагов. 🔥Пламя сохраняется в области на короткое время.🔥Использование: Нажмите в направлении взгляда клавишу способности, чтобы поджечь врагов, оказавшихся на пути огня.",
-
+"Molten Aura": "",
+"Enemies that touch you are burned": "",
+"Shock Blast": "",
+"Initial explosion stuns enemies": "",
 
 "Death Machine": "Машина смерти",
 "Deadly machine gun. High damage per shot and a large magazine capacity": "Смертоносный пулемёт.Высокий урон и большой боезапас",
-
+"Critical Return": "",
+"Critical kills have a chance of returning ammo": "",
+"High Capacity": "",
+"Increased ammo count": "",
 
 // Дополнительная способность
 "Minor Abilities": "Дополнительная способность",
 
 "Grappling Hook": "Крюк",
 "Grapple to surfaces to escape danger and reach new heights.": "Используйте крюк, чтобы цепляться за поверхности, избегать угроз и достигать новых высот.👉Улучшение экзотической способности Акробатика Acrobatic👉Плюс один заряд. Возвращение зарядов, потраченных в воздухе👈",
+"Acrobatic": "Акробатика",
+"Plus one charge. Refund charges used in midair": "Плюс один заряд. Возвращение зарядов, потраченных в воздухе",
+"Stun Hook": "Оглушающий крюк",
+"Enemies hit are stunned": "Задетые противники оглушаются",
 
 "Portal Grenade": "Портальная граната",
 "A grenade that spawns creatures to fight for you. They last a short duration.": "Граната, которая призывает существ, сражающихся на вашей стороне. Существа живут недолго.",
+"Contagious": "Заражение",
+"Summoned Fears can infect nearby enemies": "Призванные страхи могут заражать соседних противников",
+"Extra Time": "",
+"Summoned Fears last longer": "",
 
 "Kinetic Jump": "Кинетический прыжок",
 "Jump to extreme heights. Hold the button to jump higher. Landing stuns nearby enemies.": "Прыгайте экстремально высоко. Удерживайте кнопку, чтобы подпрыгнуть выше. Приземление оглушает ближайших врагов.",
+"Jump Boost": "Усиление прыжка",
+"Jump higher and restore some health": "Большая высота прыжков и частичное восстановление здоровья",
+"Quick Charge": "Быстрая зарядка",
+"Faster charge time": "Ускоренная перезарядка",
+
 
 "Flicker": "Мерцание",
 "Tap to quickly teleport a short distance in your facing direction. Press and hold to pre-aim. Goes through enemies.": "Нажмите, чтобы быстро телепортироваться на небольшое расстояние (не более 50 метров) в направлении взгляда. Нажмите и удерживайте, чтобы прицелиться. Проходит сквозь врагов",
+"Auto Reload": "",
+"Auto-reload a portion of your weapon": "",
+"Warp Damage": "",
+"Teleporting at enemies deals damage": "",
+
+
 
 "Supply Link": "Связь припасов",
 "Instantly supplies you and squad with ammo, armor, equipment and a portion of the Major Ability charge.": "Мгновенно пополняйте запасы боеприпасов, брони, снаряжения и часть заряда главной способности (полевой модификации) у себя и членов отряда.",
+"Fully Protected": "",
+"Auto refill armor plates for you and allies": "",
+"Fully Supplied": "",
+"Refill all equipment for you and allies": "",
+
 
 "Black Hat": "Взломщик",
 "Hack enemies, equipment, and vehicles. Hacked targets are disabled, destroyed, or converted to fight for you.": "Взламывайте врагов, снаряжение и транспорт. Взломанные цели выводятся из строя, уничтожаются или переходят под ваш контроль.",
+"Backdoor Protocol": "Протокол обхода",
+"Adds powerful attacks against Guild and Fear": "Добавление мощных атак, эффективных против Гильдии и страхов",
+"Chargeback": "Возврат средств",
+"Successful attacks reduce Major Ability cooldown": "Успешные атаки ускоряют восстановление главной способности",
+
 
 "Blood Burner": "Палач",
 "Spawn a mystical motorcycle good for traversal and combat. Running over enemies charges a special area of effect attack.": "Вызовите мистический мотоцикл, подходящий для перемещения и боя. Наезд на врагов заряжает особую атаку, действующую по области.",
 "Eliminate 500 Nightmare Zone enemies": "Убейте 500 врагов в кошмарной зоне V",
 
+"Protective Field	": "Защитное поле",
+"Increased damage reduction while riding": "Дополнительное снижение урона при езде на транспорте",
+"Time Charge": "Постепенная зарядка",
+"Pulse attack charges via time instead of kills": "Импульсные атаки заряжаются с течением времени,а не от убийств",
+
+
 "Aether Blade": "Эфирный клинок",
 "Aether infused throwing knife that hunts down targets. Hit 5 with one toss to recover a portion of its charge.": "Метательный нож, напитанный эфиром, который преследует цели. Попадите в 5 целей одним броском, чтобы восстановить часть заряда.",
+"Extra Charge": "",
+"Plus one charge": "",
+"Stun Bounce": "Оглушающий рикошет",
+"Bounces stun enemies": "Рикошеты оглушают противников",
+
 
 "Psych Grenade": "Психограната",
 "Explodes on impact, releasing a lingering cloud of hallucinogenic gas that brainrots enemies": "Взрывается при столкновении с преградой, испуская облако галлюциногенного газа, который сводит врагов с ума",
+"Charm Offensive": "",
+"Charm effect lasts longer. More enemies can be charmed": "",
+"Reinforcements	": "",
+"Chance to spawn stronger ally": "",
+
+
+// Экзотические способности навыков
+
+"With Season 05, Exotic Upgrades became available for all Abilities. ": "",
+"Exotic Upgrades": "Экзотические улучшения",
+"These upgrades can primarily be found in Supply Caches within Nightmare Zones or inside Glitch Fractures, but also have a slight chance of appearing within the Supply Caches in Zone III and Zone IV.": "",
+"Each Ability has two possible Exotic Upgrades to choose from, but only one can be activated at a time. ": "",
+" The upgrades will remain until the Operator is either killed, have their Prestige level increased, or their Combat Rating reset.": "",
+"": "",
+"": "",
+
+
+
+
+
+
 
 "In Endgame: Earn 30000 Power": "или наберите силу 30 000 в Финале",
 "In Endgame:": "или в Финале:",
