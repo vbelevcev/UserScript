@@ -2,12 +2,16 @@
 // @icon https://favicon.yandex.ru/favicon/callofduty.fandom.com
 // @name         👉CoD WikiBO7 Endgame👈☭🇷🇺🩸Русский перевод
 // @namespace    https://callofduty.fandom.com/wiki/Endgame_(Black_Ops_7)
-// @version      9.8.2026
+// @version      14.8.2026
 // @description  Русская локализация для режима Финала с сайта CoD Wiki Endgame Black Ops 7 Endgame.🩸Постепенно буду дополнять что неперевено.
 // @author       vbelevcev
 // @match        https://callofduty.fandom.com/wiki/*
+// @match        *://*.antifandom.com/*
 // @match        *://*.fandom.com/*
 // @match        *://*.fortnite.gg/*
+// @match        *://*.wiki.gg/*
+// @match        *://*.getindie.wiki/*
+// @match        *://*.breezewiki.com/*
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
@@ -16,6 +20,14 @@
 https://callofduty.fandom.com/wiki/Endgame_(Black_Ops_7)*
 https://callofduty.fandom.com/wiki/*
 *://*.fandom.com/*
+https://greasyfork.org/ru/scripts/514360-antifandom-redirect
+https://greasyfork.org/ru/scripts/531161-antifandom-alternative-wiki-redirector
+https://getindie.wiki/
+https://breezewiki.com/
+https://gitdab.com/cadence/breezewiki
+https://chromewebstore.google.com/detail/indie-wiki-buddy/fkagelmloambgokoeokbpihmgpkbgbfm
+https://getindie.wiki/
+
 */
 
 (function () {
@@ -295,161 +307,168 @@ const translations = {
 "Major Abilities": "Главная способность",
 "Crash Cart": "Реаниматор",
 "Instantly revive downed squadmates within range, and provide temporary invulnerability for a short time. Can be used to self-revive when downed.": "Мгновенно реанимирует тяжело раненных союзников в пределах досегаемости и обеспечивает временную неуязвимость на короткое время. Можно использовать для самореанимации при тяжёлом ранении",
+//
 "Full Restock": "Максимальное пополнение",
-"Restores ammo, armor, и equipment": "Восстановление боеприпасов, брони и снаряжения",
+"Restores ammo, armor, and equipment": "Восстановление боеприпасов, брони и снаряжения",
 "Jumbo Battery": "Супербатарея",
 "Invulnerability lasts longer. Revive non-squad allies": "Неуязвимость длиться дольше.Вы можете реанимировать союзников, не входящих в отряд",
-
+// Активный камуфляж
 "Active Camo": "Активный камуфляж",
 "Become nearly invisible for a short duration. Gunfire temporarily reveals your temporarily.": "На короткое время вы становитесь почти невидимыым. Стрельба временно раскрывает вас.",
-"Extra Time": "",
+//
+"Extra Time": "Дополнительное время",
 "Melee kills increase camo duration": "",
 "Stealth Fire": "Скрытная стрельба",
 "Stay invisible when firing your weapon": "Невидимость при стрельба из оружия",
-
+// Баллистический панцирь
 "Ballistic Shell": "Баллистический панцирь",
 "Deploy an energy shield that blocks incoming enemy fire.": "Разверните энергетический щит,который блокирует огонь противника.",
+//
 "Shell Revive": "",
 "Downed squadmates who enter the Shell are revived": "",
 "Stun Shell": "",
 "Melee attacks on the Shell can stun the attacker": "",
-
+// Крупнокалиберный пистолет
 "Hand Cannon": "Крупнокалиберный пистолет",
 "Powerful high damage handgun. Accurate at range.": "Мощный пистолет с высоким уроном. Точен на дальних дистанциях",
+//
 "Blast Stun": "",
 "Bullets can trigger an explosion that stuns target": "",
 "High Capacity": "Высокая вместимость",
 "Increased ammo count": "Увеличенный боезапас",
-
+// Видеоимпульс
 "Vision Pulse": "Видеоимпульс",
 "Send out a pulse which visually tags enemies through walls for your squad. Tagged enemies take increased damage.": "Отправьте видеоимпульс, который визуально отмечает врагов сквозь стены для вашего отряда. Отмеченные враги получают увеличенный урон.",
 "EMP Kill": "",
 "Killing pinged enemies generates an EMP effect": "",
 "Marked for Death": "",
 "Pinged targets take increased damage": "",
-
-
+// Машина войны
 "War Machine": "Машина войны",
 "Powerful single shot grenade launcher. Large explosion radius.": "Мощный однозарядный гранатомёт. Большой радиус поражения.",
+//
 "Fast Charge": "",
 "Reduced charge time": "",
 "High Capacity": "Высокая вместимость",
 "Increased ammo count": "Увеличенный боезапас",
-
-
-"Shadow Break": "Теневой прорыв",
+// Теневой прорыв
 "Create an energy warping field that teleports and damages enemies.": "Создайте искажающее энергию поле, которое телепортирует и наносит урон врагам.",
-"Gravity Well": "",
-"Shadow Break pulls enemies into its center": "",
-"Sky Drop": "",
-"Entering Shadow Break will teleport you into the sky": "",
-
+//
+"Gravity Well": "Гравитационный колодец",
+"Shadow Break pulls enemies into its center": "Теневой прорыв притягивает противников к своему центру",
+"Sky Drop": "Воздушный десант",
+"Entering Shadow Break will teleport you into the sky": "Войдя в теневой прорыв, вы телепортируетесь в небо",
+"Shadow Break": "Теневой прорыв",
+// Дрон-станция
 "Drone Pod": "Дрон-станция",
 "Deployable device that launches aerial drones. Drones seek out enemies and explode.": "Размещаемое устройство, запускающее воздушные дроны,которые ищут врагов и взрываются.",
+//
 "First Strike": "",
 "Drones have a shrapnel effect": "",
 "Stun Protocol": "",
 "Drones have a chance to stun enemies": "",
-
+// Протокол Часовой
 "Sentinel Protocol": "Протокол Часовой",
 "Call in an armed Guild robot to fight enemies and assist you and your team. Can revive downed teammates when downed and do a small area of effect attack when swarmed.": "Вызовите вооружённого робота Гильдии,чтобы сражаться с врагами и помогать вам и вашей команде. Может реанимировать тяжелораненных союзников и наносить небольшой урон по области при скоплении врагов.",
-"Shock Rounds": "",
-"Guild Bot's weapon has the Deadwire mod": "",
-"Target Relay": "",
-"Guild Bot targets enemies you ping. Improved accuracy": "",
-
+//
+"Shock Rounds": "Шоковые патроны",
+"Guild Bot's weapon has the Deadwire mod": "Вооружение робота Гильдии экзотическим оружием с модификацией выключатель",
+"Target Relay": "Ретранслятор цели",
+"Guild Bot targets enemies you ping. Improved accuracy": "Отмеченных вами противников атакует робот гилльдии. Точность повышена",
+// Тепловой всплеск
 "Thermal Spike": "🔥Тепловой всплеск🔥",
 "Emit a powerful blast of flames that incinerate enemies. Flames persist in the area for a short duration.": "🔥Выпускает мощный всплеск пламени, который сжигает врагов. 🔥Пламя сохраняется в области на короткое время.🔥Использование: Нажмите в направлении взгляда клавишу способности, чтобы поджечь врагов, оказавшихся на пути огня.",
+//
 "Molten Aura": "",
 "Enemies that touch you are burned": "",
 "Shock Blast": "",
 "Initial explosion stuns enemies": "",
-
+// Машина смерти
 "Death Machine": "Машина смерти",
 "Deadly machine gun. High damage per shot and a large magazine capacity": "Смертоносный пулемёт.Высокий урон и большой боезапас",
-"Critical Return": "",
-"Critical kills have a chance of returning ammo": "",
+//
+"Critical Return": "Критический возврат",
+"Critical kills have a chance of returning ammo": "Критические убийства дают шанс вернуть боеприпасы",
 "High Capacity": "",
 "Increased ammo count": "",
 
 // Дополнительная способность
 "Minor Abilities": "Дополнительная способность",
-
+// Крюк
 "Grappling Hook": "Крюк",
 "Grapple to surfaces to escape danger and reach new heights.": "Используйте крюк, чтобы цепляться за поверхности, избегать угроз и достигать новых высот.👉Улучшение экзотической способности Акробатика Acrobatic👉Плюс один заряд. Возвращение зарядов, потраченных в воздухе👈",
+//
 "Acrobatic": "Акробатика",
 "Plus one charge. Refund charges used in midair": "Плюс один заряд. Возвращение зарядов, потраченных в воздухе",
 "Stun Hook": "Оглушающий крюк",
 "Enemies hit are stunned": "Задетые противники оглушаются",
-
+// Портальная граната Призыв портала
 "Portal Grenade": "Портальная граната",
 "A grenade that spawns creatures to fight for you. They last a short duration.": "Граната, которая призывает существ, сражающихся на вашей стороне. Существа живут недолго.",
+//
 "Contagious": "Заражение",
 "Summoned Fears can infect nearby enemies": "Призванные страхи могут заражать соседних противников",
-"Extra Time": "",
-"Summoned Fears last longer": "",
-
+"Extra Time": "Дополнительное время",
+"Summoned Fears last longer": "Призваные страхи остаются дольше",
+// Кинетический прыжок
 "Kinetic Jump": "Кинетический прыжок",
 "Jump to extreme heights. Hold the button to jump higher. Landing stuns nearby enemies.": "Прыгайте экстремально высоко. Удерживайте кнопку, чтобы подпрыгнуть выше. Приземление оглушает ближайших врагов.",
+//
 "Jump Boost": "Усиление прыжка",
 "Jump higher and restore some health": "Большая высота прыжков и частичное восстановление здоровья",
 "Quick Charge": "Быстрая зарядка",
 "Faster charge time": "Ускоренная перезарядка",
-
-
+"Also increases the number of charges by 1, from 3 to 4": "Также увеличивается количество зарядов на 1, с 3 до 4",
+// Мерцание
 "Flicker": "Мерцание",
 "Tap to quickly teleport a short distance in your facing direction. Press and hold to pre-aim. Goes through enemies.": "Нажмите, чтобы быстро телепортироваться на небольшое расстояние (не более 50 метров) в направлении взгляда. Нажмите и удерживайте, чтобы прицелиться. Проходит сквозь врагов",
-"Auto Reload": "",
-"Auto-reload a portion of your weapon": "",
-"Warp Damage": "",
-"Teleporting at enemies deals damage": "",
-
-
-
+"Auto Reload": "Автоматическая перезарядка",
+"Auto-reload a portion of your weapon": "Частичная автоматическая перезарядка оружия",
+"Warp Damage": "Урон от телепортации",
+"Teleporting at enemies deals damage": "Телепортация в противников наносит урон",
+// Связь припасов
 "Supply Link": "Связь припасов",
 "Instantly supplies you and squad with ammo, armor, equipment and a portion of the Major Ability charge.": "Мгновенно пополняйте запасы боеприпасов, брони, снаряжения и часть заряда главной способности (полевой модификации) у себя и членов отряда.",
+//
 "Fully Protected": "",
 "Auto refill armor plates for you and allies": "",
-"Fully Supplied": "",
-"Refill all equipment for you and allies": "",
-
-
+"Fully Supplied": "Полное снабжение",
+"Refill all equipment for you and allies": "Пополнение запасов всего снаряжения для вас и ваших союзников",
+// Взломщик
 "Black Hat": "Взломщик",
 "Hack enemies, equipment, and vehicles. Hacked targets are disabled, destroyed, or converted to fight for you.": "Взламывайте врагов, снаряжение и транспорт. Взломанные цели выводятся из строя, уничтожаются или переходят под ваш контроль.",
+//
 "Backdoor Protocol": "Протокол обхода",
 "Adds powerful attacks against Guild and Fear": "Добавление мощных атак, эффективных против Гильдии и страхов",
 "Chargeback": "Возврат средств",
 "Successful attacks reduce Major Ability cooldown": "Успешные атаки ускоряют восстановление главной способности",
-
-
+// Палач
 "Blood Burner": "Палач",
 "Spawn a mystical motorcycle good for traversal and combat. Running over enemies charges a special area of effect attack.": "Вызовите мистический мотоцикл, подходящий для перемещения и боя. Наезд на врагов заряжает особую атаку, действующую по области.",
 "Eliminate 500 Nightmare Zone enemies": "Убейте 500 врагов в кошмарной зоне V",
-
-"Protective Field	": "Защитное поле",
+// 
+"Protective Field": "Защитное поле",
 "Increased damage reduction while riding": "Дополнительное снижение урона при езде на транспорте",
 "Time Charge": "Постепенная зарядка",
 "Pulse attack charges via time instead of kills": "Импульсные атаки заряжаются с течением времени,а не от убийств",
-
-
+// Эфирный клинок
 "Aether Blade": "Эфирный клинок",
 "Aether infused throwing knife that hunts down targets. Hit 5 with one toss to recover a portion of its charge.": "Метательный нож, напитанный эфиром, который преследует цели. Попадите в 5 целей одним броском, чтобы восстановить часть заряда.",
-"Extra Charge": "",
-"Plus one charge": "",
+//
+"Extra Charge": "Дополнительный заряд",
+"Plus one charge": "Плюс один заряд",
 "Stun Bounce": "Оглушающий рикошет",
 "Bounces stun enemies": "Рикошеты оглушают противников",
-
-
+// Психограната
 "Psych Grenade": "Психограната",
 "Explodes on impact, releasing a lingering cloud of hallucinogenic gas that brainrots enemies": "Взрывается при столкновении с преградой, испуская облако галлюциногенного газа, который сводит врагов с ума",
-"Charm Offensive": "",
-"Charm effect lasts longer. More enemies can be charmed": "",
-"Reinforcements	": "",
-"Chance to spawn stronger ally": "",
-
+//
+"Charm Offensive": "Наступательное подчинение",
+"Charm effect lasts longer. More enemies can be charmed": "Подчинение действует дольше. Вы можете подчинить больше противников",
+"Reinforcements": "Подкрепление",
+"Chance to spawn stronger ally": "Шанс вызвать более сильного союзника",
 
 // Экзотические способности навыков
-
 "With Season 05, Exotic Upgrades became available for all Abilities. ": "",
 "Exotic Upgrades": "Экзотические улучшения",
 "These upgrades can primarily be found in Supply Caches within Nightmare Zones or inside Glitch Fractures, but also have a slight chance of appearing within the Supply Caches in Zone III and Zone IV.": "",
@@ -457,11 +476,6 @@ const translations = {
 " The upgrades will remain until the Operator is either killed, have their Prestige level increased, or their Combat Rating reset.": "",
 "": "",
 "": "",
-
-
-
-
-
 
 
 "In Endgame: Earn 30000 Power": "или наберите силу 30 000 в Финале",
@@ -643,7 +657,7 @@ const translations = {
 "Ambush": "Засада",
 "Hits from behind deal more damage, if the enemy is at full health critical shots deal double damage": " ・ Удары в спину по не ожидающим этого врагам наносят больше урона. если у врага полное здоровье, критические удары наносят двойной урон.",
 
-"Decoy": "Ложная цель",
+"Decoy": "Ложная цель/Отвлекающая граната",
 "Taking significant damage deploys as Echo Unit that distracts enemies": "・ При получении значительного урона развёртывается солдат Эхо, который отвлекает врагов.",
 "": "",
 
@@ -1058,6 +1072,9 @@ const translations = {
 "Melee Reload": "Перезарядка в ближнем бою",
 "Weapon magazine immediately filled after a melee hit": "・ Магазин оружия мгновенно заполняется после удара в ближнем бою",
 
+"Parry": "Парирование",
+"Reduces damage received while charging Heavy Melee Attack": "・ Уменьшение получаемого урона при подготовке тяжёлой атаке ближнего боя",
+
 "Recoil Delete": "Отсутствие отдачи",
 "Massive improvement to Recoil Control": "・ Существенное улучшение контроля отдачи",
 
@@ -1070,8 +1087,8 @@ const translations = {
 "Slasher": "Рубака",
 "Faster melee attack speed": "・ Повышенная скорость ближнего боя",
 
-"Shotgunificator🔴": "",
-"Weapon fires now spread bullets🔴": "・ ",
+"Shotgunificator": "Дробовикатор",
+"Weapon fires now spread bullets": "・ Теперь оружие стреляет пулями с разбросом",
 
 "Ultra-light": "Сверхлёгкость",
 "Player movement speed is not reduced while in ADS": "・ Скорость перемещения игрока не снижается в режиме прицеливания",
@@ -1396,6 +1413,59 @@ const translations = {
 "": "",
 "": "",
 "": "",
+"Lethals:": "Летальное",
+
+"Frag": "Граната",
+"Impact Grenade": "Ударная граната",
+"Cluster Grenade": "Кластерная граната",
+"Semtex": "Семтекс",
+"Needle Drone": "Дрон-игла",
+"Molotov": "Коктейль Молотова",
+"Point Turret": "Точечная турель",
+"C4": "C4",
+"Combat Axe": "Топор",
+
+"Tacticals:": "Тактическое",
+"Stun Grenade": "Оглушающая граната",
+"EMP Grenade": "Эми граната",
+"Pinpoint Grenade": "Граната обнаружения",
+"Flashbang": "Психограната",
+"Stim Shot": "Стимулятор",
+"Smoke Grenade": "Дымовая граната",
+"Hunter Bot": "Охотник-бот",
+"": "Отвлекающая граната",
+"": "Дыя",
+"": "",
+
+"RC-XD": "Машинка RC-XD",
+"Sentry Turret": "Турель",
+"LDBR": "Миномётный удар",
+"D.A.W.G.": "Робопёс",
+"Gravemaker": "Могильщик",
+"Rhino": "Носорог",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+"": "",
+
+
+
+
 
 "Exposure": "Экспозиция",
 "Inside": "Внутри",
@@ -1586,8 +1656,6 @@ const translations = {
 " except": " кроме",
 " and ": " и ",
 " rarity": " редкости",
-"": "",
-"": "",
 "": "",
 "": "",
 "": "",
